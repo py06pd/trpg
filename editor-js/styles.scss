@@ -1,0 +1,15 @@
+/* Import variables for customising element-ui styles */
+@import "element-variables";
+
+/* Import element-ui's default styles, which will use our custom variables */
+@import "~element-ui/packages/theme-chalk/src/index";
+
+.el-tag {
+    background-color: #ecf5ff;
+    color: #409eff;
+    border: 1px solid #d9ecff;
+}
+
+.el-tag .el-icon-close {
+    color: #409eff;
+}

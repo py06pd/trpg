@@ -1,0 +1,19 @@
+.editor > ul, .editor > div {
+    overflow: hidden;
+    padding: 0;
+}
+.editor .menu li { cursor: pointer; padding: 5px 10px; }
+.editor .menu li:hover { background-color: lightblue; }
+.editor .menu li.selected { background-color: lightgreen; }
+.editor .menu, .editor .content { display: inline-block; vertical-align: top; }
+.editor .menu { border: 2px solid orange; }
+.editor #content .content { border: 2px solid orange; padding: 0 10px 10px 10px; }
+.grid > li li { display: inline-block; width: 30px; height: 30px; border: 1px solid #ccc; }
+.grid > li > ul { display: flex; }
+.cursor { border: 2px solid red; height: 28px; position: absolute; width: 28px; }
+.tilesets .el-tab-pane { position: relative; }
+.tilesets .grid { position: absolute; top: 0; left: 0; }
+.tilesets.el-tabs--border-card > .el-tabs__content { padding: 0; }
+.map-editor > div, .map-editor ul { display: inline-block; vertical-align: top; }
+#equip_slots .cic-select { display: inline-block; }
+#equip_slots > li > span { display: inline-block; width: 80px; }

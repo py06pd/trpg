@@ -1,0 +1,394 @@
+#profiles, #queue { border: 1px solid black; }
+#profiles > ul > li, #queue > ul > li { display: inline-block; vertical-align: top; }
+#profiles .stats li { padding: 5px 10px; }
+.profile {
+    background: transparent url(../../images/sprites/Actor3.png) -192px 0px no-repeat;
+    display: block;
+    height: 96px;
+    width: 96px;
+    zoom: 126%;
+}
+.profile1 {
+    background-image: url(../../images/faces/Actor1.png);
+    background-position: 0px 0px;
+}
+.profile2 {
+    background-image: url(../../images/faces/Actor1.png);
+    background-position: -96px 0px;
+}
+.profile3 {
+    background-image: url(../../images/faces/Actor1.png);
+    background-position: -192px 0px;
+}
+.profile4 {
+    background-image: url(../../images/faces/Actor1.png);
+    background-position: -288px 0px;
+}
+.profile5 {
+    background-image: url(../../images/faces/Actor1.png);
+    background-position: 0px -96px;
+}
+.profile6 {
+    background-image: url(../../images/faces/Actor1.png);
+    background-position: -96px -96px;
+}
+.profile7 {
+    background-image: url(../../images/faces/Actor1.png);
+    background-position: -192px -96px;
+}
+.profile8 {
+    background-image: url(../../images/faces/Actor1.png);
+    background-position: -288px -96px;
+}
+.profile9 {
+    background-image: url(../../images/faces/Actor2.png);
+    background-position: 0px 0px;
+}
+.profile10 {
+    background-image: url(../../images/faces/Actor2.png);
+    background-position: -96px 0px;
+}
+.profile11 {
+    background-image: url(../../images/faces/Actor2.png);
+    background-position: -192px 0px;
+}
+.profile12 {
+    background-image: url(../../images/faces/Actor2.png);
+    background-position: -288px 0px;
+}
+.profile13 {
+    background-image: url(../../images/faces/Actor2.png);
+    background-position: 0px -96px;
+}
+.profile14 {
+    background-image: url(../../images/faces/Actor2.png);
+    background-position: -96px -96px;
+}
+.profile15 {
+    background-image: url(../../images/faces/Actor2.png);
+    background-position: -192px -96px;
+}
+.profile16 {
+    background-image: url(../../images/faces/Actor2.png);
+    background-position: -288px -96px;
+}
+.profile17 {
+    background-image: url(../../images/faces/Actor3.png);
+    background-position: 0px 0px;
+}
+.profile18 {
+    background-image: url(../../images/faces/Actor3.png);
+    background-position: -96px 0px;
+}
+.profile19 {
+    background-image: url(../../images/faces/Actor3.png);
+    background-position: -192px 0px;
+}
+.profile20 {
+    background-image: url(../../images/faces/Actor3.png);
+    background-position: -288px 0px;
+}
+.profile21 {
+    background-image: url(../../images/faces/Actor3.png);
+    background-position: 0px -96px;
+}
+.profile22 {
+    background-image: url(../../images/faces/Actor3.png);
+    background-position: -96px -96px;
+}
+.profile23 {
+    background-image: url(../../images/faces/Actor3.png);
+    background-position: -192px -96px;
+}
+.profile24 {
+    background-image: url(../../images/faces/Actor3.png);
+    background-position: -288px -96px;
+}
+.profile25 {
+    background-image: url(../../images/faces/Actor4.png);
+    background-position: 0px 0px;
+}
+.profile26 {
+    background-image: url(../../images/faces/Actor4.png);
+    background-position: -96px 0px;
+}
+.profile27 {
+    background-image: url(../../images/faces/Actor4.png);
+    background-position: -192px 0px;
+}
+.profile28 {
+    background-image: url(../../images/faces/Actor4.png);
+    background-position: -288px 0px;
+}
+.profile29 {
+    background-image: url(../../images/faces/Actor4.png);
+    background-position: 0px -96px;
+}
+.profile30 {
+    background-image: url(../../images/faces/Actor4.png);
+    background-position: -96px -96px;
+}
+.profile31 {
+    background-image: url(../../images/faces/Actor4.png);
+    background-position: -192px -96px;
+}
+.profile32 {
+    background-image: url(../../images/faces/Actor4.png);
+    background-position: -288px -96px;
+}
+.profile33 {
+    background-image: url(../../images/faces/Actor5.png);
+    background-position: 0px 0px;
+}
+.profile34 {
+    background-image: url(../../images/faces/Actor5.png);
+    background-position: -96px 0px;
+}
+.profile35 {
+    background-image: url(../../images/faces/Actor5.png);
+    background-position: -192px 0px;
+}
+.profile36 {
+    background-image: url(../../images/faces/Actor5.png);
+    background-position: -288px 0px;
+}
+.profile37 {
+    background-image: url(../../images/faces/Actor5.png);
+    background-position: 0px -96px;
+}
+.profile38 {
+    background-image: url(../../images/faces/Actor5.png);
+    background-position: -96px -96px;
+}
+.profile39 {
+    background-image: url(../../images/faces/Actor5.png);
+    background-position: -192px -96px;
+}
+.profile40 {
+    background-image: url(../../images/faces/Actor5.png);
+    background-position: -288px -96px;
+}
+.profile41 {
+    background-image: url(../../images/faces/Evil.png);
+    background-position: 0px 0px;
+}
+.profile42 {
+    background-image: url(../../images/faces/Evil.png);
+    background-position: -96px 0px;
+}
+.profile43 {
+    background-image: url(../../images/faces/Evil.png);
+    background-position: -192px 0px;
+}
+.profile44 {
+    background-image: url(../../images/faces/Evil.png);
+    background-position: -288px 0px;
+}
+.profile45 {
+    background-image: url(../../images/faces/Evil.png);
+    background-position: 0px -96px;
+}
+.profile46 {
+    background-image: url(../../images/faces/Evil.png);
+    background-position: -96px -96px;
+}
+.profile47 {
+    background-image: url(../../images/faces/Evil.png);
+    background-position: -192px -96px;
+}
+.profile48 {
+    background-image: url(../../images/faces/Evil.png);
+    background-position: -288px -96px;
+}
+.profile49 {
+    background-image: url(../../images/faces/Monster1.png);
+    background-position: 0px 0px;
+}
+.profile50 {
+    background-image: url(../../images/faces/Monster1.png);
+    background-position: -96px 0px;
+}
+.profile51 {
+    background-image: url(../../images/faces/Monster1.png);
+    background-position: -192px 0px;
+}
+.profile52 {
+    background-image: url(../../images/faces/Monster1.png);
+    background-position: -288px 0px;
+}
+.profile53 {
+    background-image: url(../../images/faces/Monster1.png);
+    background-position: 0px -96px;
+}
+.profile54 {
+    background-image: url(../../images/faces/Monster1.png);
+    background-position: -96px -96px;
+}
+.profile55 {
+    background-image: url(../../images/faces/Monster1.png);
+    background-position: -192px -96px;
+}
+.profile56 {
+    background-image: url(../../images/faces/Monster1.png);
+    background-position: -288px -96px;
+}
+.profile57 {
+    background-image: url(../../images/faces/People1.png);
+    background-position: 0px 0px;
+}
+.profile58 {
+    background-image: url(../../images/faces/People1.png);
+    background-position: -96px 0px;
+}
+.profile59 {
+    background-image: url(../../images/faces/People1.png);
+    background-position: -192px 0px;
+}
+.profile60 {
+    background-image: url(../../images/faces/People1.png);
+    background-position: -288px 0px;
+}
+.profile61 {
+    background-image: url(../../images/faces/People1.png);
+    background-position: 0px -96px;
+}
+.profile62 {
+    background-image: url(../../images/faces/People1.png);
+    background-position: -96px -96px;
+}
+.profile63 {
+    background-image: url(../../images/faces/People1.png);
+    background-position: -192px -96px;
+}
+.profile64 {
+    background-image: url(../../images/faces/People1.png);
+    background-position: -288px -96px;
+}
+.profile65 {
+    background-image: url(../../images/faces/People2.png);
+    background-position: 0px 0px;
+}
+.profile66 {
+    background-image: url(../../images/faces/People2.png);
+    background-position: -96px 0px;
+}
+.profile67 {
+    background-image: url(../../images/faces/People2.png);
+    background-position: -192px 0px;
+}
+.profile68 {
+    background-image: url(../../images/faces/People2.png);
+    background-position: -288px 0px;
+}
+.profile69 {
+    background-image: url(../../images/faces/People2.png);
+    background-position: 0px -96px;
+}
+.profile70 {
+    background-image: url(../../images/faces/People2.png);
+    background-position: -96px -96px;
+}
+.profile71 {
+    background-image: url(../../images/faces/People2.png);
+    background-position: -192px -96px;
+}
+.profile72 {
+    background-image: url(../../images/faces/People2.png);
+    background-position: -288px -96px;
+}
+.profile73 {
+    background-image: url(../../images/faces/People3.png);
+    background-position: 0px 0px;
+}
+.profile74 {
+    background-image: url(../../images/faces/People3.png);
+    background-position: -96px 0px;
+}
+.profile75 {
+    background-image: url(../../images/faces/People3.png);
+    background-position: -192px 0px;
+}
+.profile76 {
+    background-image: url(../../images/faces/People3.png);
+    background-position: -288px 0px;
+}
+.profile77 {
+    background-image: url(../../images/faces/People3.png);
+    background-position: 0px -96px;
+}
+.profile78 {
+    background-image: url(../../images/faces/People3.png);
+    background-position: -96px -96px;
+}
+.profile79 {
+    background-image: url(../../images/faces/People3.png);
+    background-position: -192px -96px;
+}
+.profile80 {
+    background-image: url(../../images/faces/People3.png);
+    background-position: -288px -96px;
+}
+.profile81 {
+    background-image: url(../../images/faces/People4.png);
+    background-position: 0px 0px;
+}
+.profile82 {
+    background-image: url(../../images/faces/People4.png);
+    background-position: -96px 0px;
+}
+.profile83 {
+    background-image: url(../../images/faces/People4.png);
+    background-position: -192px 0px;
+}
+.profile84 {
+    background-image: url(../../images/faces/People4.png);
+    background-position: -288px 0px;
+}
+.profile85 {
+    background-image: url(../../images/faces/People4.png);
+    background-position: 0px -96px;
+}
+.profile86 {
+    background-image: url(../../images/faces/People4.png);
+    background-position: -96px -96px;
+}
+.profile87 {
+    background-image: url(../../images/faces/People4.png);
+    background-position: -192px -96px;
+}
+.profile88 {
+    background-image: url(../../images/faces/People4.png);
+    background-position: -288px -96px;
+}
+.profile89 {
+    background-image: url(../../images/faces/Spiritual.png);
+    background-position: 0px 0px;
+}
+.profile90 {
+    background-image: url(../../images/faces/Spiritual.png);
+    background-position: -96px 0px;
+}
+.profile91 {
+    background-image: url(../../images/faces/Spiritual.png);
+    background-position: -192px 0px;
+}
+.profile92 {
+    background-image: url(../../images/faces/Spiritual.png);
+    background-position: -288px 0px;
+}
+.profile93 {
+    background-image: url(../../images/faces/Spiritual.png);
+    background-position: 0px -96px;
+}
+.profile94 {
+    background-image: url(../../images/faces/Spiritual.png);
+    background-position: -96px -96px;
+}
+.profile95 {
+    background-image: url(../../images/faces/Spiritual.png);
+    background-position: -192px -96px;
+}
+.profile96 {
+    background-image: url(../../images/faces/Spiritual.png);
+    background-position: -288px -96px;
+}

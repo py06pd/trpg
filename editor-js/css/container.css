@@ -1,0 +1,108 @@
+.cic-container {
+    font: 14px/1.6em "Segoe UI",Verdana,sans-serif;
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 0 0 5px #888;
+    min-width: 600px;
+    max-width: 800px;
+    margin: auto;
+}
+.cic-header {
+    padding: 10px;
+    z-index: 2;
+    text-align: left;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ccc;
+    background: #DFE6EA linear-gradient(to bottom,#DFE6EA,#CCD7DD);
+    color: #3981ac;
+    text-shadow: 1px 1px rgba(255,255,255,0.5);
+}
+.cic-header-add { background: url(../images/ghx-icon-sprite.png) no-repeat 5px -419px; width:24px; height:24px; float:right; cursor:pointer;  }
+.cic-header-title {
+    margin-left: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    font: bold 14px Verdana;
+}
+.cic-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+.cic-table thead { background-color: #eee; }
+.cic-table th, .cic-table td {
+    padding: 3px 16px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+.cic-table th.td-checkbox {
+    width: 36px;
+}
+.cic-table tbody tr {
+    background-color: #eee;
+    height: 30px;
+}
+.cic-table td {
+    font-size: 9pt;
+    word-wrap: break-word;
+}
+.cic-table tbody td.primary {
+    color: #3981AC;
+    font-weight: bold;
+}
+.cic-footer {
+    height: 54px;
+    padding-left: 13px;
+    padding-right: 13px;
+    z-index: 2;
+    text-align: left;
+    background: #ebebeb linear-gradient(to bottom,#ebebeb,#cfd1cf);
+}
+
+.cic-popup {
+    background-color: #efefef;
+    z-index: 1010;
+    position: fixed;
+    top: 60px;
+    font: 14px/1.6em "Segoe UI",Verdana,sans-serif;
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 0 0 5px #888;
+    min-width: 600px;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    max-height: 460px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+.cic-overlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    opacity: 0.5;
+    background: #222D3F;
+}
+
+.form-label { padding-top: 10px; }
+.form-label, .form-label-first { font-weight: bold; }
+
+.icon {
+    background: url(../images/ghx-icon-sprite.png) no-repeat;
+    width:24px;
+    height:24px;
+    cursor:pointer;
+    display: block;
+}
+.add-icon { background-position: 5px -419px; }
+.remove-icon { background-position: 5px -220px; }
+
+.table-filter { padding: 5px; background-color: #eee; }

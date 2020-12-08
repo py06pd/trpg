@@ -1,0 +1,29 @@
+.checkbox {
+    cursor: pointer;
+    background: transparent url("../images/cic-checkboxes.png") no-repeat scroll top left;
+    padding: 3px 0 2px 22px;
+}
+.checkbox.selected { background-position: 0 -30px; }
+.checkbox.mixed { background-position: 0 -60px; }
+.checkbox.mousedown { background-position: 0 -90px; }
+.checkbox.disabled { background-position: 0 -120px; color: #ccc; }
+.checkbox.disabled.selected { background-position: 0 -150px; }
+
+.ui-select, .ui-text { border: 1px solid #BBB; padding: 2px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2) inset; height:20px; border-radius: 4px; }
+.ui-select { height: 26px; }
+.ui-select:focus, .ui-text:focus { border: 3px solid #DFEFFC !important; padding: 0 2px; }
+
+.cic-textbox { width: 217px; background: none; padding-left: 0; }
+
+.face-select .grid,
+.sprite-select .grid,
+.icon-select .grid { position: absolute; top: 15px; left: 15px; }
+.face-select .grid > li li { width: 94px; height: 94px; }
+.face-select .preview,
+.icon-select .preview { border: 1px solid #ccc; }
+.face-select .cursor { border: 2px solid red; height: 92px; position: absolute; width: 92px; }
+.icon-select .grid > li li { width: 22px; height: 22px; }
+.icon-select .cursor { border: 2px solid red; height: 20px; position: absolute; width: 20px; }
+.sprite-select .grid > li li { width: 94px; height: 126px; }
+.sprite-select .preview { border: 1px solid #ccc; width: 32px; height: 32px; }
+.sprite-select .cursor { border: 2px solid red; height: 122px; position: absolute; width: 92px; }

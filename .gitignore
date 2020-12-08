@@ -1,0 +1,13 @@
+.idea/workspace.xml
+app-js/node_modules/
+editor-js/node_modules/
+src/Arralyn/obj/
+src/Arralyn/bin/
+public/appsettings.Development.json
+public/appsettings.json
+public/Arralyn.runtimeconfig.json
+public/Arralyn.pdb
+public/Arralyn.exe
+public/Arralyn.dll
+public/Arralyn.deps.json
+public/editor/

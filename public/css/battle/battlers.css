@@ -1,0 +1,402 @@
+.battler {
+    background: transparent url(../../images/sprites/Actor3.png) -192px 0px no-repeat;
+    height: 32px;
+    width: 32px;
+}
+#map .battler { position: absolute; }
+
+.move { position: absolute; width: 32px; height: 32px; background-color: yellow; }
+.attack {
+    background-color: orange; 
+    height: 32px;
+    opacity: 0.5;
+    position: absolute;
+    width: 32px;
+}
+.battler1 {
+    background-image: url(../../images/sprites/Actor1.png);
+    background-position: 0px 0px;
+}
+.battler2 {
+    background-image: url(../../images/sprites/Actor1.png);
+    background-position: -96px 0px;
+}
+.battler3 {
+    background-image: url(../../images/sprites/Actor1.png);
+    background-position: -192px 0px;
+}
+.battler4 {
+    background-image: url(../../images/sprites/Actor1.png);
+    background-position: -288px 0px;
+}
+.battler5 {
+    background-image: url(../../images/sprites/Actor1.png);
+    background-position: 0px -128px;
+}
+.battler6 {
+    background-image: url(../../images/sprites/Actor1.png);
+    background-position: -192px -128px;
+}
+.battler7 {
+    background-image: url(../../images/sprites/Actor1.png);
+    background-position: -96px -128px;
+}
+.battler8 {
+    background-image: url(../../images/sprites/Actor1.png);
+    background-position: -288px -128px;
+}
+.battler9 {
+    background-image: url(../../images/sprites/Actor2.png);
+    background-position: 0px 0px;
+}
+.battler10 {
+    background-image: url(../../images/sprites/Actor2.png);
+    background-position: -96px 0px;
+}
+.battler11 {
+    background-image: url(../../images/sprites/Actor2.png);
+    background-position: -192px 0px;
+}
+.battler12 {
+    background-image: url(../../images/sprites/Actor2.png);
+    background-position: -288px 0px;
+}
+.battler13 {
+    background-image: url(../../images/sprites/Actor2.png);
+    background-position: 0px -128px;
+}
+.battler14 {
+    background-image: url(../../images/sprites/Actor2.png);
+    background-position: -96px -128px;
+}
+.battler15 {
+    background-image: url(../../images/sprites/Actor2.png);
+    background-position: -192px -128px;
+}
+.battler16 {
+    background-image: url(../../images/sprites/Actor2.png);
+    background-position: -288px -128px;
+}
+.battler17 {
+    background-image: url(../../images/sprites/Actor3.png);
+    background-position: 0px 0px;
+}
+.battler18 {
+    background-image: url(../../images/sprites/Actor3.png);
+    background-position: -96px 0px;
+}
+.battler19 {
+    background-image: url(../../images/sprites/Actor3.png);
+    background-position: -192px 0px;
+}
+.battler20 {
+    background-image: url(../../images/sprites/Actor3.png);
+    background-position: -288px 0px;
+}
+.battler21 {
+    background-image: url(../../images/sprites/Actor3.png);
+    background-position: 0px -128px;
+}
+.battler22 {
+    background-image: url(../../images/sprites/Actor3.png);
+    background-position: -96px -128px;
+}
+.battler23 {
+    background-image: url(../../images/sprites/Actor3.png);
+    background-position: -192px -128px;
+}
+.battler24 {
+    background-image: url(../../images/sprites/Actor3.png);
+    background-position: -288px -128px;
+}
+.battler25 {
+    background-image: url(../../images/sprites/Actor4.png);
+    background-position: 0px 0px;
+}
+.battler26 {
+    background-image: url(../../images/sprites/Actor4.png);
+    background-position: -96px 0px;
+}
+.battler27 {
+    background-image: url(../../images/sprites/Actor4.png);
+    background-position: -192px 0px;
+}
+.battler28 {
+    background-image: url(../../images/sprites/Actor4.png);
+    background-position: -288px 0px;
+}
+.battler29 {
+    background-image: url(../../images/sprites/Actor4.png);
+    background-position: 0px -128px;
+}
+.battler30 {
+    background-image: url(../../images/sprites/Actor4.png);
+    background-position: -96px -128px;
+}
+.battler31 {
+    background-image: url(../../images/sprites/Actor4.png);
+    background-position: -192px -128px;
+}
+.battler32 {
+    background-image: url(../../images/sprites/Actor4.png);
+    background-position: -288px -128px;
+}
+.battler33 {
+    background-image: url(../../images/sprites/Actor5.png);
+    background-position: 0px 0px;
+}
+.battler34 {
+    background-image: url(../../images/sprites/Actor5.png);
+    background-position: -96px 0px;
+}
+.battler35 {
+    background-image: url(../../images/sprites/Actor5.png);
+    background-position: -192px 0px;
+}
+.battler36 {
+    background-image: url(../../images/sprites/Actor5.png);
+    background-position: -288px 0px;
+}
+.battler37 {
+    background-image: url(../../images/sprites/Actor5.png);
+    background-position: 0px -128px;
+}
+.battler38 {
+    background-image: url(../../images/sprites/Actor5.png);
+    background-position: -96px -128px;
+}
+.battler39 {
+    background-image: url(../../images/sprites/Actor5.png);
+    background-position: -192px -128px;
+}
+.battler40 {
+    background-image: url(../../images/sprites/Actor5.png);
+    background-position: -288px -128px;
+}
+.battler41 {
+    background-image: url(../../images/sprites/Evil.png);
+    background-position: 0px 0px;
+}
+.battler42 {
+    background-image: url(../../images/sprites/Evil.png);
+    background-position: -96px 0px;
+}
+.battler43 {
+    background-image: url(../../images/sprites/Evil.png);
+    background-position: -192px 0px;
+}
+.battler44 {
+    background-image: url(../../images/sprites/Evil.png);
+    background-position: -288px 0px;
+}
+.battler45 {
+    background-image: url(../../images/sprites/Evil.png);
+    background-position: 0px -128px;
+}
+.battler46 {
+    background-image: url(../../images/sprites/Evil.png);
+    background-position: -96px -128px;
+}
+.battler47 {
+    background-image: url(../../images/sprites/Evil.png);
+    background-position: -192px -128px;
+}
+.battler48 {
+    background-image: url(../../images/sprites/Evil.png);
+    background-position: -288px -128px;
+}
+.battler49 {
+    background-image: url(../../images/sprites/Monster1.png);
+    background-position: 0px 0px;
+}
+.battler50 {
+    background-image: url(../../images/sprites/Monster1.png);
+    background-position: -96px 0px;
+}
+.battler51 {
+    background-image: url(../../images/sprites/Monster1.png);
+    background-position: -192px 0px;
+}
+.battler52 {
+    background-image: url(../../images/sprites/Monster1.png);
+    background-position: -288px 0px;
+}
+.battler53 {
+    background-image: url(../../images/sprites/Monster1.png);
+    background-position: 0px -128px;
+}
+.battler54 {
+    background-image: url(../../images/sprites/Monster1.png);
+    background-position: -96px -128px;
+}
+.battler55 {
+    background-image: url(../../images/sprites/Monster1.png);
+    background-position: -192px -128px;
+}
+.battler56 {
+    background-image: url(../../images/sprites/Monster1.png);
+    background-position: -288px -128px;
+}
+.battler57 {
+    background-image: url(../../images/sprites/People1.png);
+    background-position: 0px 0px;
+}
+.battler58 {
+    background-image: url(../../images/sprites/People1.png);
+    background-position: -96px 0px;
+}
+.battler59 {
+    background-image: url(../../images/sprites/People1.png);
+    background-position: -192px 0px;
+}
+.battler60 {
+    background-image: url(../../images/sprites/People1.png);
+    background-position: -288px 0px;
+}
+.battler61 {
+    background-image: url(../../images/sprites/People1.png);
+    background-position: 0px -128px;
+}
+.battler62 {
+    background-image: url(../../images/sprites/People1.png);
+    background-position: -96px -128px;
+}
+.battler63 {
+    background-image: url(../../images/sprites/People1.png);
+    background-position: -192px -128px;
+}
+.battler64 {
+    background-image: url(../../images/sprites/People1.png);
+    background-position: -288px -128px;
+}
+.battler65 {
+    background-image: url(../../images/sprites/People2.png);
+    background-position: 0px 0px;
+}
+.battler66 {
+    background-image: url(../../images/sprites/People2.png);
+    background-position: -96px 0px;
+}
+.battler67 {
+    background-image: url(../../images/sprites/People2.png);
+    background-position: -192px 0px;
+}
+.battler68 {
+    background-image: url(../../images/sprites/People2.png);
+    background-position: -288px 0px;
+}
+.battler69 {
+    background-image: url(../../images/sprites/People2.png);
+    background-position: 0px -128px;
+}
+.battler70 {
+    background-image: url(../../images/sprites/People2.png);
+    background-position: -96px -128px;
+}
+.battler71 {
+    background-image: url(../../images/sprites/People2.png);
+    background-position: -192px -128px;
+}
+.battler72 {
+    background-image: url(../../images/sprites/People2.png);
+    background-position: -288px -128px;
+}
+.battler73 {
+    background-image: url(../../images/sprites/People3.png);
+    background-position: 0px 0px;
+}
+.battler74 {
+    background-image: url(../../images/sprites/People3.png);
+    background-position: -96px 0px;
+}
+.battler75 {
+    background-image: url(../../images/sprites/People3.png);
+    background-position: -192px 0px;
+}
+.battler76 {
+    background-image: url(../../images/sprites/People3.png);
+    background-position: -288px 0px;
+}
+.battler77 {
+    background-image: url(../../images/sprites/People3.png);
+    background-position: 0px -128px;
+}
+.battler78 {
+    background-image: url(../../images/sprites/People3.png);
+    background-position: -96px -128px;
+}
+.battler79 {
+    background-image: url(../../images/sprites/People3.png);
+    background-position: -192px -128px;
+}
+.battler80 {
+    background-image: url(../../images/sprites/People3.png);
+    background-position: -288px -128px;
+}
+.battler81 {
+    background-image: url(../../images/sprites/People4.png);
+    background-position: 0px 0px;
+}
+.battler82 {
+    background-image: url(../../images/sprites/People4.png);
+    background-position: -96px 0px;
+}
+.battler83 {
+    background-image: url(../../images/sprites/People4.png);
+    background-position: -192px 0px;
+}
+.battler84 {
+    background-image: url(../../images/sprites/People4.png);
+    background-position: -288px 0px;
+}
+.battler85 {
+    background-image: url(../../images/sprites/People4.png);
+    background-position: 0px -128px;
+}
+.battler86 {
+    background-image: url(../../images/sprites/People4.png);
+    background-position: -96px -128px;
+}
+.battler87 {
+    background-image: url(../../images/sprites/People4.png);
+    background-position: -192px -128px;
+}
+.battler88 {
+    background-image: url(../../images/sprites/People4.png);
+    background-position: -288px -128px;
+}
+.battler89 {
+    background-image: url(../../images/sprites/Spiritual.png);
+    background-position: 0px 0px;
+}
+.battler90 {
+    background-image: url(../../images/sprites/Spiritual.png);
+    background-position: -96px 0px;
+}
+.battler91 {
+    background-image: url(../../images/sprites/Spiritual.png);
+    background-position: -192px 0px;
+}
+.battler92 {
+    background-image: url(../../images/sprites/Spiritual.png);
+    background-position: -288px 0px;
+}
+.battler93 {
+    background-image: url(../../images/sprites/Spiritual.png);
+    background-position: 0px -128px;
+}
+.battler94 {
+    background-image: url(../../images/sprites/Spiritual.png);
+    background-position: -96px -128px;
+}
+.battler95 {
+    background-image: url(../../images/sprites/Spiritual.png);
+    background-position: -192px -128px;
+}
+.battler96 {
+    background-image: url(../../images/sprites/Spiritual.png);
+    background-position: -288px -128px;
+}
+.direction4 { background-position-y: -32px; }
+.direction2 { background-position-y: -64px; }
+.direction1 { background-position-y: -96px; }

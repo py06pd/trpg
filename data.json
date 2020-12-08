@@ -1,0 +1,159 @@
+{
+    "jobs": [
+        {
+            "name": "job1",
+            "label": "Knight",
+            "promotions": ["job2"],
+            "weaponTypes": ["weaponType1"],
+            "armourTypes": ["armourType1"]
+        },
+        {
+            "name": "job2",
+            "label": "Paladin",
+            "promotions": [],
+            "weaponTypes": ["weaponType1", "weaponType2"],
+            "armourTypes": ["armourType1"]
+        },
+        {
+            "name": "job3",
+            "label": "Knight",
+            "promotions": ["job4"],
+            "weaponTypes": ["weaponType1"],
+            "armourTypes": ["armourType1"]
+        },
+        {
+            "name": "job4",
+            "label": "Paladin",
+            "promotions": [],
+            "weaponTypes": ["weaponType1", "weaponType2"],
+            "armourTypes": ["armourType1"]
+        },
+        {
+            "name": "job5",
+            "label": "Thief",
+            "promotions": ["job6"],
+            "weaponTypes": ["weaponType3"],
+            "armourTypes": ["armourType2"]
+        },
+        {
+            "name": "job6",
+            "label": "Raider",
+            "promotions": [],
+            "weaponTypes": ["weaponType3", "weaponType4"],
+            "armourTypes": ["armourType2"]
+        },
+        {
+            "name": "job7",
+            "label": "Swordfighter",
+            "promotions": ["job8"],
+            "weaponTypes": ["weaponType5"],
+            "armourTypes": ["armourType2"]
+        },
+        {
+            "name": "job8",
+            "label": "Swordmaster",
+            "promotions": [],
+            "weaponTypes": ["weaponType5", "weaponType6"],
+            "armourTypes": ["armourType2"]
+        }
+    ],
+    "weaponTypes": [
+        {
+            "name": "weaponType1",
+            "label": "Lances"
+        },
+        {
+            "name": "weaponType2",
+            "label": "Knightswords"
+        },
+        {
+            "name": "weaponType3",
+            "label": "Knives"
+        },
+        {
+            "name": "weaponType4",
+            "label": "Axes"
+        },
+        {
+            "name": "weaponType5",
+            "label": "Blades"
+        },
+        {
+            "name": "weaponType6",
+            "label": "Jian"
+        }
+    ],
+    "armourTypes": [
+        {
+            "name": "armourType1",
+            "label": "Heavy Armour"
+        },
+        {
+            "name": "armourType2",
+            "label": "Light Armour"
+        }
+    ],
+    "characters": [
+        {
+            "name": "character1",
+            "label": "Roland",
+            "job": "job1"
+        },
+        {
+            "name": "character2",
+            "label": "Astolfo",
+            "job": "job3"
+        },
+        {
+            "name": "character3",
+            "label": "Ruggiero",
+            "job": "job3"
+        },
+        {
+            "name": "character4",
+            "label": "Brunello",
+            "job": "job5"
+        },
+        {
+            "name": "character5",
+            "label": "Marfisa",
+            "job": "job7"
+        },
+        {
+            "name": "character6",
+            "label": "Zerbino"
+        },
+        {
+            "name": "character7",
+            "label": "Mandricardo"
+        },
+        {
+            "name": "character8",
+            "label": "Rodomonte"
+        },
+        {
+            "name": "character9",
+            "label": "Sacripante"
+        },
+        {
+            "name": "character10",
+            "label": "Ferragut"
+        },
+        {
+            "name": "character11",
+            "label": "Renaud de Montauban"
+        },
+        {
+            "name": "character12",
+            "label": "Bradamante"
+        },
+        {
+            "name": "character13",
+            "label": "Richard"
+        },
+        {
+            "name": "character14",
+            "label": "Angelica"
+        }
+    ]
+}

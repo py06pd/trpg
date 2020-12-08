@@ -1,0 +1,6 @@
+#app > div { display: inline-block; vertical-align: top; }
+#menu li { padding: 5px 10px; }
+.grid > li li { display: inline-block; width: 32px; height: 32px; }
+.grid > li > ul { display: flex; }
+#map .grid > li li { background-color: green; }
+#cursor { border: 2px solid red; height: 28px; position: absolute; width: 28px; }

@@ -1,0 +1,86 @@
+#mainMenu { position: absolute; z-index: 1; }
+#mainMenu > ul, #mainMenu > div {
+    display: inline-block;
+    overflow: hidden;
+    padding: 0px;
+    vertical-align: top;
+}
+#mainMenu li { cursor: pointer; padding: 5px 10px; }
+#mainMenu li.hover, .menu-panel tr.hover { background-color: lightblue; }
+#mainMenu li.selected, .menu-panel tr.selected { background-color: lightgreen; }
+
+.bar-back {
+    height: 10px;
+    width: 100px;
+    background: linear-gradient(to right, green, yellow, red);
+}
+.bar-back > div {
+    height: 10px;
+    background: lightgrey;
+    float: right;
+}
+
+#actorAttributes table { width: 100%; }
+#actorAttributes .less { color: red; }
+#actorAttributes .more { color: green; }
+
+#actorInfo, #actorInfo > div.profile {
+    overflow: hidden;
+    padding: 0;
+}
+#actorInfo > div {
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+}
+
+
+.icon, .equip-icon {
+	display: block;
+	width: 24px;
+	height: 24px;
+	background: url(../images/icons/IconSet.png);
+}
+.equip-icon-hand1 { background-position: -48px -72px; }
+.equip-icon-hand2 { background-position: -48px -72px; }
+.equip-icon-head { background: url(../images/icons/IconSet2.png) 0 -216px; }
+.equip-icon-body { background-position: -288px -48px; }
+.equip-icon-hands { background-position: -196px -72px; }
+.equip-icon-feet { background-position: 0 -72px; }
+.equip-icon-accessory { background-position: -264px -72px; }
+.icon5 { background-position: -96px 0px; }
+.icon8 { background-position: -168px 0px; }
+.icon10 { background-position: -216px 0px; }
+.icon11 { background-position: -240px 0px; }
+.icon15 { background-position: -336px 0px; }
+.icon21 { background-position: -96px -24px; }
+.icon33 { background-position: 0px -48px; }
+.icon35 { background-position: -48px -48px; }
+.icon41 { background-position: -192px -48px; }
+.icon45 { background-position: -288px -48px; }
+.icon47 { background-position: -336px -48px; }
+.icon54 { background-position: -120px -72px; }
+.icon57 { background-position: -192px -72px; }
+.icon89 { background-position: -192px -120px; }
+.icon97 { background-position: 0px -144px; }
+.icon560 { background: url(../images/icons/IconSet2.png) -360px -24px; }
+.icon637 { background: url(../images/icons/IconSet2.png) -288px -192px; }
+.menu-panel:not(#actorInfo) > div { padding: 0 10px 5px; }
+.menu-panel > table { width: 100%; }
+.menu-panel .cell-first { padding-left: 10px; }
+.menu-panel .cell-last {
+	padding-right: 10px;
+	vertical-align:middle;
+}
+.column {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.menu-panel {
+    background-color: white;
+	border: 3px solid orange;
+	border-radius: 15px;
+	margin: 2px;
+	padding: 10px;
+}

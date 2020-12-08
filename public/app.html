@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/battle/map.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/battle/battlers.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/battle/menu.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/battle/profile.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/menu.css" />
+</head>
+<body>
+    <app id="app"></app>
+    <script>
+        document.onkeydown = (evt) => {
+            if (document.getElementById('app').__vue__.handleInput) {
+                document.getElementById('app').__vue__.handleInput(evt);
+            } else {
+                document.getElementById('app').__vue__.$children[0].handleInput(evt);
+            }
+        };
+    </script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

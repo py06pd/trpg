@@ -1,0 +1,2640 @@
+{
+    "attributes": {
+        "level": 99,
+        "exp": -1,
+        "hp": 9999,
+        "tp": 999,
+        "lp": 100,
+        "str": 255,
+        "def": 255,
+        "int": 255,
+        "res": 255,
+        "agi": 255,
+        "hit": 255,
+        "eva": 255,
+        "luck": 255,
+        "move": 255,
+        "range": 255
+    },
+    "characters": [
+        {
+            "id": "actor1",
+            "name": "Arralyn",
+            "job": "class5",
+            "sprite": 9,
+            "face": 9,
+            "attributes": {
+                "level": 1,
+                "exp": 0,
+                "hp": 110,
+                "tp": 26,
+                "lp": 0,
+                "move": 3,
+                "range": 1,
+                "str": 22,
+                "def": 22,
+                "int": 13,
+                "res": 13,
+                "agi": 22,
+                "hit": 22,
+                "eva": 22,
+                "luck": 15
+            },
+            "gear": {
+                "hand1": "light1",
+                "body": "body1"
+            }
+        },
+        {
+            "id": "actor2",
+            "name": "Tariq",
+            "job": "class11",
+            "sprite": 3,
+            "face": 3,
+            "attributes": {
+                "level": 1,
+                "exp": 0,
+                "hp": 90,
+                "tp": 40,
+                "lp": 0,
+                "move": 3,
+                "range": 1,
+                "str": 18,
+                "def": 18,
+                "int": 20,
+                "res": 20,
+                "agi": 14,
+                "hit": 14,
+                "eva": 14,
+                "luck": 11
+            },
+            "gear": {
+                "hand1": "tome1",
+                "body": "body10"
+            }
+        },
+        {
+            "id": "actor3",
+            "name": "Guillem",
+            "job": "class13",
+            "sprite": 68,
+            "face": 68,
+            "attributes": {
+                "level": 1,
+                "exp": 0,
+                "hp": 65,
+                "tp": 42,
+                "lp": 0,
+                "move": 3,
+                "range": 1,
+                "str": 13,
+                "def": 13,
+                "int": 21,
+                "res": 21,
+                "agi": 19,
+                "hit": 19,
+                "eva": 19,
+                "luck": 18
+            },
+            "gear": {
+                "hand1": "heavy1",
+                "body": "body1"
+            }
+        },
+        {
+            "id": "actor4",
+            "name": "Aquila",
+            "job": "class20",
+            "sprite": 73,
+            "face": 73,
+            "attributes": {
+                "level": 1,
+                "exp": 0,
+                "hp": 60,
+                "tp": 48,
+                "lp": 0,
+                "move": 3,
+                "range": 1,
+                "str": 12,
+                "def": 12,
+                "int": 24,
+                "res": 24,
+                "agi": 16,
+                "hit": 16,
+                "eva": 16,
+                "luck": 19
+            },
+            "gear": {
+                "hand1": "instrument1",
+                "body": "body1"
+            }
+        },
+        {
+            "id": "actor5",
+            "name": "Armand",
+            "job": "class15",
+            "sprite": 19,
+            "face": 19,
+            "attributes": {
+                "level": 1,
+                "exp": 0,
+                "hp": 105,
+                "tp": 36,
+                "lp": 0,
+                "move": 3,
+                "range": 1,
+                "str": 21,
+                "def": 21,
+                "int": 18,
+                "res": 18,
+                "agi": 23,
+                "hit": 23,
+                "eva": 23,
+                "luck": 23
+            },
+            "gear": {
+                "hand1": "dagger1",
+                "body": "body1"
+            }
+        },
+        {
+            "id": "actor6",
+            "name": "Kasari",
+            "job": "class1",
+            "sprite": 70,
+            "face": 70,
+            "attributes": {
+                "level": 1,
+                "exp": 0,
+                "hp": 100,
+                "tp": 32,
+                "lp": 0,
+                "move": 3,
+                "range": 1,
+                "str": 20,
+                "def": 20,
+                "int": 16,
+                "res": 16,
+                "agi": 20,
+                "hit": 20,
+                "eva": 20,
+                "luck": 23
+            },
+            "gear": {
+                "hand1": "spear1",
+                "body": "body1"
+            }
+        },
+        {
+            "id": "actor7",
+            "name": "Rodrigo",
+            "job": "class19",
+            "sprite": 7,
+            "face": 7,
+            "attributes": {
+                "level": 1,
+                "exp": 0,
+                "hp": 105,
+                "tp": 36,
+                "lp": 0,
+                "move": 3,
+                "range": 1,
+                "str": 21,
+                "def": 21,
+                "int": 18,
+                "res": 18,
+                "agi": 23,
+                "hit": 23,
+                "eva": 23,
+                "luck": 23
+            },
+            "gear": {
+                "hand1": "bow1",
+                "body": "body1"
+            }
+        },
+        {
+            "id": "actor8",
+            "name": "Zhang",
+            "job": "class17",
+            "sprite": 8,
+            "face": 8,
+            "attributes": {
+                "level": 1,
+                "exp": 0,
+                "hp": 70,
+                "tp": 46,
+                "lp": 0,
+                "move": 3,
+                "range": 1,
+                "str": 14,
+                "def": 14,
+                "int": 23,
+                "res": 23,
+                "agi": 21,
+                "hit": 21,
+                "eva": 21,
+                "luck": 17
+            },
+            "gear": {
+                "hand1": "staff1",
+                "body": "body10"
+            }
+        },
+        {
+            "id": "actor9",
+            "name": "Siren",
+            "job": "class9",
+            "sprite": 72,
+            "face": 72,
+            "attributes": {
+                "level": 1,
+                "exp": 0,
+                "hp": 120,
+                "tp": 24,
+                "lp": 0,
+                "move": 3,
+                "range": 1,
+                "str": 24,
+                "def": 24,
+                "int": 12,
+                "res": 12,
+                "agi": 14,
+                "hit": 14,
+                "eva": 14,
+                "luck": 21
+            },
+            "gear": {
+                "hand1": "axe1",
+                "body": "body1"
+            }
+        },
+        {
+            "id": "actor10",
+            "name": "Bandit 1",
+            "job": "class15",
+            "sprite": 25,
+            "face": 25,
+            "enemy": true,
+            "attributes": {
+                "level": 1,
+                "maxLevel": 99,
+                "exp": 0,
+                "maxHp": 105,
+                "hp": 105,
+                "maxTp": 36,
+                "tp": 36,
+                "maxLp": 100,
+                "lp": 0,
+                "move": 3,
+                "range": 1,
+                "str": 21,
+                "mag": 18,
+                "agi": 23,
+                "luck": 23
+            },
+            "gear": {
+                "hand1": "dagger1",
+                "body": "body1"
+            }
+        },
+        {
+            "id": "actor11",
+            "name": "Bandit 2",
+            "job": "class15",
+            "sprite": 25,
+            "face": 25,
+            "attributes": {
+                "level": 1,
+                "maxLevel": 99,
+                "exp": 0,
+                "maxHp": 105,
+                "hp": 105,
+                "maxTp": 36,
+                "tp": 36,
+                "maxLp": 100,
+                "lp": 0,
+                "move": 3,
+                "range": 1,
+                "str": 21,
+                "mag": 18,
+                "agi": 23,
+                "luck": 23
+            },
+            "gear": {
+                "hand1": "dagger1",
+                "body": "body1"
+            }
+        }
+    ],
+    "equipSlots": [
+        "hand1",
+        "hands",
+        "head",
+        "body",
+        "feet",
+        "accessory"
+    ],
+    "items": [
+        {
+            "id": "light1",
+            "name": "Idaho",
+            "type": "gear",
+            "gearType": "Light Sword",
+            "slots": ["hand1", "hand2"],
+            "icon": 10,
+            "skills": ["swordmanship1"],
+            "attributes": {
+                "str": 12
+            }
+        },
+        {
+            "id": "light2",
+            "name": "Pimpernel",
+            "type": "gear",
+            "gearType": "Light Sword",
+            "slots": ["hand1", "hand2"],
+            "icon": 10,
+            "skills": ["swordmanship1"],
+            "attributes": {
+                "str": 14
+            }
+        },
+        {
+            "id": "light3",
+            "name": "Vos",
+            "type": "gear",
+            "gearType": "Light Sword",
+            "slots": ["hand1", "hand2"],
+            "icon": 10,
+            "skills": ["swordmanship1"],
+            "attributes": {
+                "str": 16
+            }
+        },
+        {
+            "id": "light4",
+            "name": "Mulan",
+            "type": "gear",
+            "gearType": "Light Sword",
+            "slots": ["hand1", "hand2"],
+            "icon": 10,
+            "skills": ["swordmanship1"],
+            "attributes": {
+                "str": 18
+            }
+        },
+        {
+            "id": "light5",
+            "name": "Zorro",
+            "type": "gear",
+            "gearType": "Light Sword",
+            "slots": ["hand1", "hand2"],
+            "icon": 10,
+            "skills": ["passive29"],
+            "attributes": {
+                "str": 20
+            }
+        },
+        {
+            "id": "light6",
+            "name": "Montoya",
+            "type": "gear",
+            "gearType": "Light Sword",
+            "slots": ["hand1", "hand2"],
+            "icon": 10,
+            "skills": ["passive30"],
+            "attributes": {
+                "str": 24
+            }
+        },
+        {
+            "id": "light7",
+            "name": "Marfisa",
+            "type": "gear",
+            "gearType": "Light Sword",
+            "slots": ["hand1", "hand2"],
+            "icon": 10,
+            "skills": ["swordmanship2"],
+            "attributes": {
+                "str": 30
+            }
+        },
+        {
+            "id": "light8",
+            "name": "Daha",
+            "type": "gear",
+            "gearType": "Light Sword",
+            "slots": ["hand1", "hand2"],
+            "icon": 10,
+            "skills": ["passive11"],
+            "attributes": {
+                "str": 36
+            }
+        },
+        {
+            "id": "light6",
+            "name": "Zhang Fei",
+            "type": "gear",
+            "gearType": "Light Sword",
+            "slots": ["hand1", "hand2"],
+            "icon": 10,
+            "skills": ["passive12"],
+            "attributes": {
+                "str": 48
+            }
+        },
+        {
+            "id": "light7",
+            "name": "Liu Bei",
+            "type": "gear",
+            "gearType": "Light Sword",
+            "slots": ["hand1", "hand2"],
+            "icon": 10,
+            "skills": ["swordmanship3"],
+            "attributes": {
+                "str": 60
+            }
+        },
+        {
+            "id": "light8",
+            "name": "Guan Gong",
+            "type": "gear",
+            "gearType": "Light Sword",
+            "slots": ["hand1", "hand2"],
+            "icon": 10,
+            "attributes": {
+                "str": 72
+            }
+        },
+        {
+            "id": "light9",
+            "name": "Night Lotus",
+            "type": "gear",
+            "gearType": "Light Sword",
+            "slots": ["hand1", "hand2"],
+            "icon": 10,
+            "attributes": {
+                "str": 90
+            }
+        },
+        {
+            "id": "tome1",
+            "name": "Journey to the West",
+            "type": "gear",
+            "gearType": "Tome",
+            "slots": ["hand1", "hand2"],
+            "icon": 413,
+            "skills": ["learning1"],
+            "attributes": {
+                "str": 6
+            }
+        },
+        {
+            "id": "tome2",
+            "name": "Pilgrim's Progress",
+            "type": "gear",
+            "gearType": "Tome",
+            "slots": ["hand1", "hand2"],
+            "icon": 413,
+            "skills": ["learning2"],
+            "attributes": {
+                "str": 8
+            }
+        },
+        {
+            "id": "tome3",
+            "name": "Epic of Gilgamesh",
+            "type": "gear",
+            "gearType": "Tome",
+            "slots": ["hand1", "hand2"],
+            "icon": 413,
+            "skills": ["learning3"],
+            "attributes": {
+                "str": 10
+            }
+        },
+        {
+            "id": "tome4",
+            "name": "Rime of the Ancient Mariner",
+            "type": "gear",
+            "gearType": "Tome",
+            "slots": ["hand1", "hand2"],
+            "icon": 413,
+            "skills": ["learning4"],
+            "attributes": {
+                "str": 12
+            }
+        },
+        {
+            "id": "tome5",
+            "name": "Iliad",
+            "type": "gear",
+            "gearType": "Tome",
+            "slots": ["hand1", "hand2"],
+            "icon": 413,
+            "skills": ["learning5"],
+            "attributes": {
+                "str": 14
+            }
+        },
+        {
+            "id": "tome6",
+            "name": "Irulan Chronicle",
+            "type": "gear",
+            "gearType": "Tome",
+            "slots": ["hand1", "hand2"],
+            "icon": 413,
+            "skills": ["learning6"],
+            "attributes": {
+                "str": 18
+            }
+        },
+        {
+            "id": "tome7",
+            "name": "Encyclopedia Galactica",
+            "type": "gear",
+            "gearType": "Tome",
+            "slots": ["hand1", "hand2"],
+            "icon": 413,
+            "skills": ["learning7"],
+            "attributes": {
+                "str": 22
+            }
+        },
+        {
+            "id": "tome8",
+            "name": "Necronomicon",
+            "type": "gear",
+            "gearType": "Tome",
+            "slots": ["hand1", "hand2"],
+            "icon": 413,
+            "skills": ["learning8"],
+            "attributes": {
+                "str": 26
+            }
+        },
+        {
+            "id": "tome9",
+            "name": "Bala Day Nirva",
+            "type": "gear",
+            "gearType": "Tome",
+            "slots": ["hand1", "hand2"],
+            "icon": 413,
+            "skills": ["learning9"],
+            "attributes": {
+                "str": 32
+            }
+        },
+        {
+            "id": "club1",
+            "name": "Sceptre",
+            "type": "gear",
+            "gearType": "Club",
+            "slots": ["hand1", "hand2"],
+            "icon": 15
+        },
+        {
+            "id": "club2",
+            "name": "Gada",
+            "type": "gear",
+            "gearType": "Club",
+            "slots": ["hand1", "hand2"],
+            "icon": 15
+        },
+        {
+            "id": "club3",
+            "name": "Flail",
+            "type": "gear",
+            "gearType": "Club",
+            "slots": ["hand1", "hand2"],
+            "icon": 15
+        },
+        {
+            "id": "club4",
+            "name": "Morning Star",
+            "type": "gear",
+            "gearType": "Club",
+            "slots": ["hand1", "hand2"],
+            "icon": 15
+        },
+        {
+            "id": "club5",
+            "name": "St Edward's Sceptre",
+            "type": "gear",
+            "gearType": "Club",
+            "slots": ["hand1", "hand2"],
+            "icon": 15
+        },
+        {
+            "id": "club6",
+            "name": "Heraclean Club",
+            "type": "Club"
+        },
+        {
+            "id": "club7",
+            "name": "Sharur",
+            "type": "gear",
+            "gearType": "Club",
+            "slots": ["hand1", "hand2"],
+            "icon": 15
+        },
+        {
+            "id": "club8",
+            "name": "",
+            "type": "gear",
+            "gearType": "Club",
+            "slots": ["hand1", "hand2"],
+            "icon": 15
+        },
+        {
+            "id": "club9",
+            "name": "Barbarian",
+            "type": "gear",
+            "gearType": "Club",
+            "slots": ["hand1", "hand2"],
+            "icon": 15
+        },
+        {
+            "id": "instrument1",
+            "name": "Bugle",
+            "type": "gear",
+            "gearType": "Instrument",
+            "slots": ["hand1", "hand2"],
+            "icon": 89
+        },
+        {
+            "id": "instrument2",
+            "name": "Cornu",
+            "type": "gear",
+            "gearType": "Instrument",
+            "slots": ["hand1", "hand2"],
+            "icon": 89
+        },
+        {
+            "id": "instrument3",
+            "name": "Snare Drum",
+            "type": "gear",
+            "gearType": "Instrument",
+            "slots": ["hand1", "hand2"],
+            "icon": 89
+        },
+        {
+            "id": "instrument4",
+            "name": "Staff Flute",
+            "type": "gear",
+            "gearType": "Instrument",
+            "slots": ["hand1", "hand2"],
+            "icon": 89
+        },
+        {
+            "id": "instrument5",
+            "name": "Bagpipes",
+            "type": "gear",
+            "gearType": "Instrument",
+            "slots": ["hand1", "hand2"],
+            "icon": 89
+        },
+        {
+            "id": "instrument6",
+            "name": "Visi-Sonar",
+            "type": "gear",
+            "gearType": "Instrument",
+            "slots": ["hand1", "hand2"],
+            "icon": 89
+        },
+        {
+            "id": "instrument7",
+            "name": "Guangu",
+            "type": "gear",
+            "gearType": "Instrument",
+            "slots": ["hand1", "hand2"],
+            "icon": 89
+        },
+        {
+            "id": "instrument8",
+            "name": "Horn of Gondor",
+            "type": "gear",
+            "gearType": "Instrument",
+            "slots": ["hand1", "hand2"],
+            "icon": 89
+        },
+        {
+            "id": "instrument9",
+            "name": "Wolf Howl",
+            "type": "gear",
+            "gearType": "Instrument",
+            "slots": ["hand1", "hand2"],
+            "icon": 89
+        },
+        {
+            "id": "dagger1",
+            "name": "Stiletto",
+            "type": "gear",
+            "gearType": "Dagger",
+            "slots": ["hand1", "hand2"],
+            "icon": 8,
+            "attributes": {
+                "str": 9
+            }
+        },
+        {
+            "id": "dagger2",
+            "name": "Bowie Knife",
+            "type": "gear",
+            "gearType": "Dagger",
+            "slots": ["hand1", "hand2"],
+            "icon": 8,
+            "attributes": {
+                "str": 13
+            }
+        },
+        {
+            "id": "dagger3",
+            "name": "Khukuri",
+            "type": "gear",
+            "gearType": "Dagger",
+            "slots": ["hand1", "hand2"],
+            "icon": 8,
+            "attributes": {
+                "str": 17
+            }
+        },
+        {
+            "id": "dagger4",
+            "name": "Carwennan",
+            "type": "gear",
+            "gearType": "Dagger",
+            "slots": ["hand1", "hand2"],
+            "icon": 8,
+            "attributes": {
+                "str": 21
+            }
+        },
+        {
+            "id": "dagger5",
+            "name": "Heartseeker",
+            "type": "gear",
+            "gearType": "Dagger",
+            "slots": ["hand1", "hand2"],
+            "icon": 8,
+            "attributes": {
+                "str": 25
+            }
+        },
+        {
+            "id": "dagger6",
+            "name": "Cat's Claw",
+            "type": "gear",
+            "gearType": "Dagger",
+            "slots": ["hand1", "hand2"],
+            "icon": 8,
+            "attributes": {
+                "str": 33
+            }
+        },
+        {
+            "id": "dagger7",
+            "name": "Sting",
+            "type": "gear",
+            "gearType": "Dagger",
+            "slots": ["hand1", "hand2"],
+            "icon": 8,
+            "attributes": {
+                "str": 41
+            }
+        },
+        {
+            "id": "dagger8",
+            "name": "Subtle Knife",
+            "type": "gear",
+            "gearType": "Dagger",
+            "slots": ["hand1", "hand2"],
+            "icon": 8,
+            "attributes": {
+                "str": 49
+            }
+        },
+        {
+            "id": "dagger9",
+            "name": "Silence",
+            "type": "gear",
+            "gearType": "Dagger",
+            "slots": ["hand1", "hand2"],
+            "icon": 8,
+            "attributes": {
+                "str": 61
+            }
+        },
+        {
+            "id": "spear1",
+            "name": "Javelin",
+            "type": "gear",
+            "gearType": "Spear",
+            "slots": ["hand1", "hand2"],
+            "icon": 5
+        },
+        {
+            "id": "spear2",
+            "name": "Boar Spear",
+            "type": "gear",
+            "gearType": "Spear",
+            "slots": ["hand1", "hand2"],
+            "icon": 5
+        },
+        {
+            "id": "spear3",
+            "name": "Jousting Lance",
+            "type": "gear",
+            "gearType": "Spear",
+            "slots": ["hand1", "hand2"],
+            "icon": 5
+        },
+        {
+            "id": "spear4",
+            "name": "Trident",
+            "type": "gear",
+            "gearType": "Spear",
+            "slots": ["hand1", "hand2"],
+            "icon": 5
+        },
+        {
+            "id": "spear5",
+            "name": "Naginata",
+            "type": "gear",
+            "gearType": "Spear",
+            "slots": ["hand1", "hand2"],
+            "icon": 5
+        },
+        {
+            "id": "spear6",
+            "name": "Fuchai",
+            "type": "gear",
+            "gearType": "Spear",
+            "slots": ["hand1", "hand2"],
+            "icon": 5
+        },
+        {
+            "id": "spear7",
+            "name": "Gae Bulg",
+            "type": "gear",
+            "gearType": "Spear",
+            "slots": ["hand1", "hand2"],
+            "icon": 5
+        },
+        {
+            "id": "spear8",
+            "name": "Gungir",
+            "type": "gear",
+            "gearType": "Spear",
+            "slots": ["hand1", "hand2"],
+            "icon": 5
+        },
+        {
+            "id": "spear9",
+            "name": "Wyvern Geirr",
+            "type": "gear",
+            "gearType": "Spear",
+            "slots": ["hand1", "hand2"],
+            "icon": 5
+        },
+        {
+            "id": "staff1",
+            "name": "Crook",
+            "type": "gear",
+            "gearType": "Staff",
+            "slots": ["hand1", "hand2"],
+            "icon": 21
+        },
+        {
+            "id": "staff2",
+            "name": "Oak Staff",
+            "type": "gear",
+            "gearType": "Staff",
+            "slots": ["hand1", "hand2"],
+            "icon": 21
+        },
+        {
+            "id": "staff3",
+            "name": "Quarterstaff",
+            "type": "gear",
+            "gearType": "Staff",
+            "slots": ["hand1", "hand2"],
+            "icon": 21
+        },
+        {
+            "id": "staff4",
+            "name": "Bo Staff",
+            "type": "gear",
+            "gearType": "Staff",
+            "slots": ["hand1", "hand2"],
+            "icon": 21
+        },
+        {
+            "id": "staff5",
+            "name": "Copmanhurst Staff",
+            "type": "gear",
+            "gearType": "Staff",
+            "slots": ["hand1", "hand2"],
+            "icon": 21
+        },
+        {
+            "id": "staff6",
+            "name": "Dragon Head Cane",
+            "type": "gear",
+            "gearType": "Staff",
+            "slots": ["hand1", "hand2"],
+            "icon": 21
+        },
+        {
+            "id": "staff7",
+            "name": "Ruyi Jingu Bang",
+            "type": "gear",
+            "gearType": "Staff",
+            "slots": ["hand1", "hand2"],
+            "icon": 21
+        },
+        {
+            "id": "staff8",
+            "name": "Istari Staff",
+            "type": "gear",
+            "gearType": "Staff",
+            "slots": ["hand1", "hand2"],
+            "icon": 21
+        },
+        {
+            "id": "staff9",
+            "name": "Echo Pole",
+            "type": "gear",
+            "gearType": "Staff",
+            "slots": ["hand1", "hand2"],
+            "icon": 21
+        },
+        {
+            "id": "blade1",
+            "name": "Cutlass",
+            "type": "gear",
+            "gearType": "Blade",
+            "slots": ["hand1", "hand2"],
+            "icon": 11
+        },
+        {
+            "id": "blade2",
+            "name": "Smee",
+            "type": "gear",
+            "gearType": "Blade",
+            "slots": ["hand1", "hand2"],
+            "icon": 11
+        },
+        {
+            "id": "blade3",
+            "name": "Roberts",
+            "type": "gear",
+            "gearType": "Blade",
+            "slots": ["hand1", "hand2"],
+            "icon": 11
+        },
+        {
+            "id": "blade4",
+            "name": "Silver",
+            "type": "gear",
+            "gearType": "Blade",
+            "slots": ["hand1", "hand2"],
+            "icon": 11
+        },
+        {
+            "id": "blade5",
+            "name": "Blood",
+            "type": "gear",
+            "gearType": "Blade",
+            "slots": ["hand1", "hand2"],
+            "icon": 11
+        },
+        {
+            "id": "blade6",
+            "name": "Hook",
+            "type": "gear",
+            "gearType": "Blade",
+            "slots": ["hand1", "hand2"],
+            "icon": 11
+        },
+        {
+            "id": "blade7",
+            "name": "Nemo",
+            "type": "gear",
+            "gearType": "Blade",
+            "slots": ["hand1", "hand2"],
+            "icon": 11
+        },
+        {
+            "id": "blade8",
+            "name": "Sinbad",
+            "type": "gear",
+            "gearType": "Blade",
+            "slots": ["hand1", "hand2"],
+            "icon": 11
+        },
+        {
+            "id": "blade9",
+            "name": "Crescent Wave",
+            "type": "gear",
+            "gearType": "Blade",
+            "slots": ["hand1", "hand2"],
+            "icon": 11
+        },
+        {
+            "id": "axe1",
+            "name": "Hand axe",
+            "type": "gear",
+            "gearType": "Axe",
+            "slots": ["hand1", "hand2"],
+            "icon": 7,
+            "attributes": {
+                "str": 10
+            }
+        },
+        {
+            "id": "axe2",
+            "name": "Tomahawk",
+            "type": "gear",
+            "gearType": "Axe",
+            "slots": ["hand1", "hand2"],
+            "icon": 7,
+            "attributes": {
+                "str": 12
+            }
+        },
+        {
+            "id": "axe3",
+            "name": "Scythe",
+            "type": "gear",
+            "gearType": "Axe",
+            "slots": ["hand1", "hand2"],
+            "icon": 7,
+            "attributes": {
+                "str": 14
+            }
+        },
+        {
+            "id": "axe4",
+            "name": "Hatchet",
+            "type": "gear",
+            "gearType": "Axe",
+            "slots": ["hand1", "hand2"],
+            "icon": 7,
+            "attributes": {
+                "str": 16
+            }
+        },
+        {
+            "id": "axe5",
+            "name": "Labrys",
+            "type": "gear",
+            "gearType": "Axe",
+            "slots": ["hand1", "hand2"],
+            "icon": 7,
+            "attributes": {
+                "str": 18
+            }
+        },
+        {
+            "id": "axe6",
+            "name": "Perun axe",
+            "type": "gear",
+            "gearType": "Axe",
+            "slots": ["hand1", "hand2"],
+            "icon": 7,
+            "attributes": {
+                "str": 20
+            }
+        },
+        {
+            "id": "axe7",
+            "name": "Parashu",
+            "type": "gear",
+            "gearType": "Axe",
+            "slots": ["hand1", "hand2"],
+            "icon": 7,
+            "attributes": {
+                "str": 22
+            }
+        },
+        {
+            "id": "axe8",
+            "name": "Reaper",
+            "type": "gear",
+            "gearType": "Axe",
+            "slots": ["hand1", "hand2"],
+            "icon": 7,
+            "attributes": {
+                "str": 24
+            }
+        },
+        {
+            "id": "axe9",
+            "name": "Blood Butterfly",
+            "type": "gear",
+            "gearType": "Axe",
+            "slots": ["hand1", "hand2"],
+            "icon": 7,
+            "attributes": {
+                "str": 26
+            }
+        },
+        {
+            "id": "bow1",
+            "name": "Shortbow",
+            "type": "gear",
+            "gearType": "Bow",
+            "slots": ["hand1", "hand2"],
+            "icon": 17,
+            "attributes": {
+                "str": 10
+            }
+        },
+        {
+            "id": "bow2",
+            "name": "Mongol Bow",
+            "type": "gear",
+            "gearType": "Bow",
+            "slots": ["hand1", "hand2"],
+            "icon": 17,
+            "attributes": {
+                "str": 12
+            }
+        },
+        {
+            "id": "bow3",
+            "name": "Yumi",
+            "type": "gear",
+            "gearType": "Bow",
+            "slots": ["hand1", "hand2"],
+            "icon": 17,
+            "attributes": {
+                "str": 14
+            }
+        },
+        {
+            "id": "bow4",
+            "name": "Agincourt",
+            "type": "gear",
+            "gearType": "Bow",
+            "slots": ["hand1", "hand2"],
+            "icon": 17,
+            "attributes": {
+                "str": 16
+            }
+        },
+        {
+            "id": "bow5",
+            "name": "Susan the Gentle",
+            "type": "gear",
+            "gearType": "Bow",
+            "slots": ["hand1", "hand2"],
+            "icon": 17,
+            "attributes": {
+                "str": 18
+            }
+        },
+        {
+            "id": "bow6",
+            "name": "Loxley",
+            "type": "gear",
+            "gearType": "Bow",
+            "slots": ["hand1", "hand2"],
+            "icon": 17,
+            "attributes": {
+                "str": 20
+            }
+        },
+        {
+            "id": "bow7",
+            "name": "Teucer",
+            "type": "gear",
+            "gearType": "Bow",
+            "slots": ["hand1", "hand2"],
+            "icon": 17,
+            "attributes": {
+                "str": 22
+            }
+        },
+        {
+            "id": "bow8",
+            "name": "Taur-nu-Fuin",
+            "type": "gear",
+            "gearType": "Bow",
+            "slots": ["hand1", "hand2"],
+            "icon": 17,
+            "attributes": {
+                "str": 24
+            }
+        },
+        {
+            "id": "bow9",
+            "name": "Broken Bough",
+            "type": "gear",
+            "gearType": "Bow",
+            "slots": ["hand1", "hand2"],
+            "icon": 17,
+            "attributes": {
+                "str": 26
+            }
+        },
+        {
+            "id": "heavy1",
+            "name": "Claymore",
+            "type": "gear",
+            "gearType": "Heavy Sword",
+            "slots": ["hand1", "hand2"],
+            "icon": 278,
+            "attributes": {
+                "str": 10
+            }
+        },
+        {
+            "id": "heavy2",
+            "name": "Hrunting",
+            "type": "gear",
+            "gearType": "Heavy Sword",
+            "slots": ["hand1", "hand2"],
+            "icon": 278,
+            "attributes": {
+                "str": 12
+            }
+        },
+        {
+            "id": "heavy3",
+            "name": "Vorpal Sword",
+            "type": "gear",
+            "gearType": "Heavy Sword",
+            "slots": ["hand1", "hand2"],
+            "icon": 278,
+            "attributes": {
+                "str": 14
+            }
+        },
+        {
+            "id": "heavy4",
+            "name": "Welleran",
+            "type": "gear",
+            "gearType": "Heavy Sword",
+            "slots": ["hand1", "hand2"],
+            "icon": 278,
+            "attributes": {
+                "str": 16
+            }
+        },
+        {
+            "id": "heavy5",
+            "name": "Anduril",
+            "type": "gear",
+            "gearType": "Heavy Sword",
+            "slots": ["hand1", "hand2"],
+            "icon": 278,
+            "attributes": {
+                "str": 18
+            }
+        },
+        {
+            "id": "heavy6",
+            "name": "Basilarda",
+            "type": "gear",
+            "gearType": "Heavy Sword",
+            "slots": ["hand1", "hand2"],
+            "icon": 278,
+            "attributes": {
+                "str": 20
+            }
+        },
+        {
+            "id": "heavy7",
+            "name": "Durendal",
+            "type": "gear",
+            "gearType": "Heavy Sword",
+            "slots": ["hand1", "hand2"],
+            "icon": 278,
+            "attributes": {
+                "str": 22
+            }
+        },
+        {
+            "id": "heavy8",
+            "name": "Excalibur",
+            "type": "gear",
+            "gearType": "Heavy Sword",
+            "slots": ["hand1", "hand2"],
+            "icon": 278,
+            "attributes": {
+                "str": 24
+            }
+        },
+        {
+            "id": "heavy9",
+            "name": "Nemesis",
+            "type": "gear",
+            "gearType": "Heavy Sword",
+            "slots": ["hand1", "hand2"],
+            "icon": 278,
+            "attributes": {
+                "str": 26
+            }
+        },
+        {
+            "id": "body1",
+            "name": "Tunic",
+            "type": "gear",
+            "gearType": "Light Armour",
+            "slots": ["body"],
+            "icon": 45,
+            "attributes": {
+                "def": 8
+            }
+        },
+        {
+            "id": "body2",
+            "name": "Gambeson",
+            "type": "gear",
+            "gearType": "Light Armour",
+            "slots": ["body"],
+            "icon": 45,
+            "attributes": {
+                "str": 1,
+                "def": 10
+            }
+        },
+        {
+            "id": "body3",
+            "name": "Linen Armour",
+            "type": "gear",
+            "gearType": "Light Armour",
+            "slots": ["body"],
+            "icon": 45,
+            "skills": ["skill41"],
+            "attributes": {
+                "def": 14,
+                "res": 2
+            }
+        },
+        {
+            "id": "body4",
+            "name": "Cuirass",
+            "type": "gear",
+            "gearType": "Light Armour",
+            "slots": ["body"],
+            "icon": 45,
+            "attributes": {
+                "def": 17,
+                "luck": 2
+            }
+        },
+        {
+            "id": "body5",
+            "name": "Brigandine",
+            "type": "gear",
+            "gearType": "Light Armour",
+            "slots": ["body"],
+            "icon": 45,
+            "attributes": {
+                "str": 1,
+                "def": 23,
+                "luck": 1
+            }
+        },
+        {
+            "id": "body6",
+            "name": "Ring Mail",
+            "type": "gear",
+            "gearType": "Light Armour",
+            "slots": ["body"],
+            "icon": 45,
+            "skills": ["skill34","skill37","skill23","skill43"],
+            "attributes": {
+                "def": 25,
+                "res": 2
+            }
+        },
+        {
+            "id": "body7",
+            "name": "Nemean Armour",
+            "type": "gear",
+            "gearType": "Light Armour",
+            "slots": ["body"],
+            "icon": 45,
+            "skills": ["skill36","skill40","skill21"],
+            "attributes": {
+                "str": 1,
+                "mag": 2,
+                "def": 34,
+                "res": 1
+            }
+        },
+        {
+            "id": "body8",
+            "name": "Smaug Armour",
+            "type": "gear",
+            "gearType": "Light Armour",
+            "slots": ["body"],
+            "icon": 45,
+            "skills": ["skill32"],
+            "attributes": {
+                "def": 37,
+                "luck": 3
+            }
+        },
+        {
+            "id": "body9",
+            "name": "Mushussu Armour",
+            "type": "gear",
+            "gearType": "Light Armour",
+            "slots": ["body"],
+            "icon": 45,
+            "skills": ["skill31"],
+            "attributes": {
+                "def": 42,
+                "luck": 1
+            }
+        },
+        {
+            "id": "body10",
+            "name": "Scapular",
+            "type": "gear",
+            "gearType": "Magic Armour",
+            "slots": ["body"],
+            "icon": 47,
+            "attributes": {
+                "res": 8
+            }
+        },
+        {
+            "id": "body11",
+            "name": "Mantle",
+            "type": "gear",
+            "gearType": "Magic Armour",
+            "slots": ["body"],
+            "icon": 47,
+            "skills": ["skill30"],
+            "attributes": {
+                "mag": 1,
+                "res": 10
+            }
+        },
+        {
+            "id": "body12",
+            "name": "Kaftan",
+            "type": "gear",
+            "gearType": "Magic Armour",
+            "slots": ["body"],
+            "icon": 47,
+            "skills": ["skill40", "skill49"],
+            "attributes": {
+                "res": 14,
+                "def": 2
+            }
+        },
+        {
+            "id": "body13",
+            "name": "Embroidered Robe",
+            "type": "gear",
+            "gearType": "Magic Armour",
+            "slots": ["body"],
+            "icon": 47,
+            "skills": ["skill21", "skill45"],
+            "attributes": {
+                "res": 17,
+                "luck": 2
+            }
+        },
+        {
+            "id": "body14",
+            "name": "",
+            "type": "gear",
+            "gearType": "Magic Armour",
+            "slots": ["body"],
+            "icon": 47,
+            "skills": ["skill49"],
+            "attributes": {
+                "mag": 1,
+                "res": 23,
+                "luck": 1
+            }
+        },
+        {
+            "id": "body15",
+            "name": "Green Kirtle",
+            "type": "gear",
+            "gearType": "Magic Armour",
+            "slots": ["body"],
+            "icon": 47,
+            "skills": ["skill27", "skill35"],
+            "attributes": {
+                "def": 2,
+                "res": 25
+            }
+        },
+        {
+            "id": "body16",
+            "name": "",
+            "type": "gear",
+            "gearType": "Magic Armour",
+            "slots": ["body"],
+            "icon": 47,
+            "skills": ["skill45"],
+            "attributes": {
+                "str": 2,
+                "mag": 1,
+                "def": 1,
+                "res": 34
+            }
+        },
+        {
+            "id": "body17",
+            "name": "",
+            "type": "gear",
+            "gearType": "Magic Armour",
+            "slots": ["body"],
+            "icon": 47,
+            "skills": ["skill50"],
+            "attributes": {
+                "res": 37,
+                "luck": 3
+            }
+        },
+        {
+            "id": "body18",
+            "name": "Dream Cloak",
+            "type": "gear",
+            "gearType": "Magic Armour",
+            "slots": ["body"],
+            "icon": 47,
+            "attributes": {
+                "res": 42,
+                "luck": 1
+            }
+        },
+        {
+            "id": "body19",
+            "name": "Chainmail",
+            "type": "gear",
+            "gearType": "Heavy Armour",
+            "slots": ["body"],
+            "icon": 41,
+            "attributes": {
+                "res": 8
+            }
+        },
+        {
+            "id": "body20",
+            "name": "Iron Armour",
+            "type": "gear",
+            "gearType": "Heavy Armour",
+            "slots": ["body"],
+            "icon": 41,
+            "skills": ["skill33"],
+            "attributes": {
+                "mag": 1,
+                "res": 10
+            }
+        },
+        {
+            "id": "body21",
+            "name": "Munition Armour",
+            "type": "gear",
+            "gearType": "Heavy Armour",
+            "slots": ["body"],
+            "icon": 41,
+            "skills": ["skill37"],
+            "attributes": {
+                "res": 14,
+                "def": 2
+            }
+        },
+        {
+            "id": "body22",
+            "name": "Steel Armour",
+            "type": "gear",
+            "gearType": "Heavy Armour",
+            "slots": ["body"],
+            "icon": 41,
+            "skills": ["skill43"],
+            "attributes": {
+                "res": 17,
+                "luck": 2
+            }
+        },
+        {
+            "id": "body23",
+            "name": "Mythril Armour",
+            "type": "gear",
+            "gearType": "Heavy Armour",
+            "slots": ["body"],
+            "icon": 41,
+            "skills": ["skill21", "skill36"],
+            "attributes": {
+                "mag": 1,
+                "res": 23,
+                "luck": 1
+            }
+        },
+        {
+            "id": "body24",
+            "name": "Vonduun Armour",
+            "type": "gear",
+            "gearType": "Heavy Armour",
+            "slots": ["body"],
+            "icon": 41,
+            "attributes": {
+                "def": 2,
+                "res": 25
+            }
+        },
+        {
+            "id": "body25",
+            "name": "Predator H X",
+            "type": "gear",
+            "gearType": "Heavy Armour",
+            "slots": ["body"],
+            "icon": 41,
+            "skills": ["skill22","skill27"],
+            "attributes": {
+                "str": 2,
+                "mag": 1,
+                "def": 1,
+                "res": 34
+            }
+        },
+        {
+            "id": "body26",
+            "name": "Ulric's Armour",
+            "type": "gear",
+            "gearType": "Heavy Armour",
+            "slots": ["body"],
+            "icon": 41,
+            "skills": ["skill28","skill38"],
+            "attributes": {
+                "res": 37,
+                "luck": 3
+            }
+        },
+        {
+            "id": "body27",
+            "name": "Diomedian Armour",
+            "type": "gear",
+            "gearType": "Heavy Armour",
+            "slots": ["body"],
+            "icon": 41,
+            "skills": ["skill30"],
+            "attributes": {
+                "res": 42,
+                "luck": 1
+            }
+        },
+        {
+            "id": "shield1",
+            "name": "Pelte",
+            "type": "gear",
+            "gearType": "Shield",
+            "slots": ["hands"],
+            "icon": 54,
+            "skills": ["skill23"],
+            "attributes": {
+                "res": 8
+            }
+        },
+        {
+            "id": "shield2",
+            "name": "Nguni Shield",
+            "type": "gear",
+            "gearType": "Shield",
+            "slots": ["hands"],
+            "icon": 54,
+            "attributes": {
+                "mag": 1,
+                "res": 10
+            }
+        },
+        {
+            "id": "shield3",
+            "name": "Round Shield",
+            "type": "gear",
+            "gearType": "Shield",
+            "slots": ["hands"],
+            "icon": 54,
+            "attributes": {
+                "res": 14,
+                "def": 2
+            }
+        },
+        {
+            "id": "shield4",
+            "name": "Hoplon",
+            "type": "gear",
+            "gearType": "Shield",
+            "slots": ["hands"],
+            "icon": 54,
+            "skills": ["skill21", "skill41"],
+            "attributes": {
+                "res": 17,
+                "luck": 2
+            }
+        },
+        {
+            "id": "shield5",
+            "name": "Scutum",
+            "type": "gear",
+            "gearType": "Shield",
+            "slots": ["hands"],
+            "icon": 54,
+            "attributes": {
+                "mag": 1,
+                "res": 23,
+                "luck": 1
+            }
+        },
+        {
+            "id": "shield6",
+            "name": "Genji Shield",
+            "type": "gear",
+            "gearType": "Shield",
+            "slots": ["hands"],
+            "icon": 54,
+            "skills": ["skill36"],
+            "attributes": {
+                "def": 2,
+                "res": 25
+            }
+        },
+        {
+            "id": "shield7",
+            "name": "Medusa's Mirror",
+            "type": "gear",
+            "gearType": "Shield",
+            "slots": ["hands"],
+            "icon": 54,
+            "skills": ["skill33"],
+            "attributes": {
+                "str": 2,
+                "mag": 1,
+                "def": 1,
+                "res": 34
+            }
+        },
+        {
+            "id": "shield8",
+            "name": "Aspis Herakleous",
+            "type": "gear",
+            "gearType": "Shield",
+            "slots": ["hands"],
+            "icon": 54,
+            "skills": ["skill38"],
+            "attributes": {
+                "res": 37,
+                "luck": 3
+            }
+        },
+        {
+            "id": "shield9",
+            "name": "Dragon Shield",
+            "type": "gear",
+            "gearType": "Shield",
+            "slots": ["hands"],
+            "icon": 54,
+            "skills": ["skill32"],
+            "attributes": {
+                "res": 42,
+                "luck": 1
+            }
+        },
+        {
+            "id": "shield10",
+            "name": "Wrist",
+            "type": "gear",
+            "gearType": "Wrist",
+            "slots": ["hands"],
+            "icon": 57,
+            "attributes": {
+                "res": 8
+            }
+        },
+        {
+            "id": "shield11",
+            "name": "Leather Wrist",
+            "type": "gear",
+            "gearType": "Wrist",
+            "slots": ["hands"],
+            "icon": 57,
+            "attributes": {
+                "mag": 1,
+                "res": 10
+            }
+        },
+        {
+            "id": "shield12",
+            "name": "Glass Armlet",
+            "type": "gear",
+            "gearType": "Wrist",
+            "slots": ["hands"],
+            "icon": 57,
+            "skills": ["skill23"],
+            "attributes": {
+                "res": 14,
+                "def": 2
+            }
+        },
+        {
+            "id": "shield13",
+            "name": "Bone Wrist",
+            "type": "gear",
+            "gearType": "Wrist",
+            "slots": ["hands"],
+            "icon": 57,
+            "skills": ["skill22"],
+            "attributes": {
+                "res": 17,
+                "luck": 2
+            }
+        },
+        {
+            "id": "shield14",
+            "name": "Mythril Armlet",
+            "type": "gear",
+            "gearType": "Wrist",
+            "slots": ["hands"],
+            "icon": 57,
+            "attributes": {
+                "mag": 1,
+                "res": 23,
+                "luck": 1
+            }
+        },
+        {
+            "id": "shield15",
+            "name": "N-Kai Armlet",
+            "type": "gear",
+            "gearType": "Wrist",
+            "slots": ["hands"],
+            "icon": 57,
+            "attributes": {
+                "def": 2,
+                "res": 25
+            }
+        },
+        {
+            "id": "shield16",
+            "name": "Jade Armlet",
+            "type": "gear",
+            "gearType": "Wrist",
+            "slots": ["hands"],
+            "icon": 57,
+            "skills": ["skill28","skill36"],
+            "attributes": {
+                "str": 2,
+                "mag": 1,
+                "def": 1,
+                "res": 34
+            }
+        },
+        {
+            "id": "shield17",
+            "name": "Magic Armlet",
+            "type": "gear",
+            "gearType": "Wrist",
+            "slots": ["hands"],
+            "icon": 57,
+            "skills": ["skill31"],
+            "attributes": {
+                "res": 37,
+                "luck": 3
+            }
+        },
+        {
+            "id": "shield18",
+            "name": "Chmera Armlet",
+            "type": "gear",
+            "gearType": "Wrist",
+            "slots": ["hands"],
+            "icon": 57,
+            "attributes": {
+                "res": 42,
+                "luck": 1
+            }
+        },
+        {
+            "id": "head1",
+            "name": "Bucket",
+            "type": "gear",
+            "gearType": "Heavy Armour",
+            "slots": ["head"],
+            "icon": 33,
+            "attributes": {
+                "res": 8
+            }
+        },
+        {
+            "id": "head2",
+            "name": "Sallet",
+            "type": "gear",
+            "gearType": "Heavy Armour",
+            "slots": ["head"],
+            "icon": 33,
+            "attributes": {
+                "mag": 1,
+                "res": 10
+            }
+        },
+        {
+            "id": "head3",
+            "name": "Corinthian Helm",
+            "type": "gear",
+            "gearType": "Heavy Armour",
+            "slots": ["head"],
+            "icon": 33,
+            "skills": ["skill29", "skill42"],
+            "attributes": {
+                "res": 14,
+                "def": 2
+            }
+        },
+        {
+            "id": "head4",
+            "name": "Great Helm",
+            "type": "gear",
+            "gearType": "Heavy Armour",
+            "slots": ["head"],
+            "icon": 33,
+            "skills": ["skill23", "skill40"],
+            "attributes": {
+                "res": 17,
+                "luck": 2
+            }
+        },
+        {
+            "id": "head5",
+            "name": "Close Helm",
+            "type": "gear",
+            "gearType": "Heavy Armour",
+            "slots": ["head"],
+            "icon": 33,
+            "skills": ["skill31"],
+            "attributes": {
+                "mag": 1,
+                "res": 23,
+                "luck": 1
+            }
+        },
+        {
+            "id": "head6",
+            "name": "Sutton Hoo",
+            "type": "gear",
+            "gearType": "Heavy Armour",
+            "slots": ["head"],
+            "icon": 33,
+            "skills": ["skill22","skill40"],
+            "attributes": {
+                "def": 2,
+                "res": 25
+            }
+        },
+        {
+            "id": "head7",
+            "name": "",
+            "type": "gear",
+            "gearType": "Heavy Armour",
+            "slots": ["head"],
+            "icon": 33,
+            "attributes": {
+                "str": 2,
+                "mag": 1,
+                "def": 1,
+                "res": 34
+            }
+        },
+        {
+            "id": "head8",
+            "name": "Genji Helm",
+            "type": "gear",
+            "gearType": "Heavy Armour",
+            "slots": ["head"],
+            "icon": 33,
+            "attributes": {
+                "res": 37,
+                "luck": 3
+            }
+        },
+        {
+            "id": "head9",
+            "name": "Wight Helm",
+            "type": "gear",
+            "gearType": "Heavy Armour",
+            "slots": ["head"],
+            "icon": 33,
+            "skills": ["skill36","skill38"],
+            "attributes": {
+                "res": 42,
+                "luck": 1
+            }
+        },
+        {
+            "id": "head10",
+            "name": "Phrygian Cap",
+            "type": "gear",
+            "gearType": "Light Armour",
+            "slots": ["head"],
+            "icon": 35,
+            "attributes": {
+                "res": 8
+            }
+        },
+        {
+            "id": "head11",
+            "name": "Bycocket",
+            "type": "gear",
+            "gearType": "Light Armour",
+            "slots": ["head"],
+            "icon": 35,
+            "skills": ["skill29"],
+            "attributes": {
+                "mag": 1,
+                "res": 10
+            }
+        },
+        {
+            "id": "head12",
+            "name": "Bowler",
+            "type": "gear",
+            "gearType": "Light Armour",
+            "slots": ["head"],
+            "icon": 35,
+            "attributes": {
+                "res": 14,
+                "def": 2
+            }
+        },
+        {
+            "id": "head13",
+            "name": "Turban",
+            "type": "gear",
+            "gearType": "Light Armour",
+            "slots": ["head"],
+            "icon": 35,
+            "attributes": {
+                "res": 17,
+                "luck": 2
+            }
+        },
+        {
+            "id": "head14",
+            "name": "Kabuto",
+            "type": "gear",
+            "gearType": "Light Armour",
+            "slots": ["head"],
+            "icon": 35,
+            "skills": ["skill40"],
+            "attributes": {
+                "mag": 1,
+                "res": 23,
+                "luck": 1
+            }
+        },
+        {
+            "id": "head15",
+            "name": "Hermes Cap",
+            "type": "gear",
+            "gearType": "Light Armour",
+            "slots": ["head"],
+            "icon": 35,
+            "skills": ["skill22","skill45"],
+            "attributes": {
+                "def": 2,
+                "res": 25
+            }
+        },
+        {
+            "id": "head16",
+            "name": "",
+            "type": "gear",
+            "gearType": "Light Armour",
+            "slots": ["head"],
+            "icon": 35,
+            "skills": ["skill29","skill32"],
+            "attributes": {
+                "str": 2,
+                "mag": 1,
+                "def": 1,
+                "res": 34
+            }
+        },
+        {
+            "id": "head17",
+            "name": "",
+            "type": "gear",
+            "gearType": "Light Armour",
+            "slots": ["head"],
+            "icon": 35,
+            "skills": ["skill23","skill38"],
+            "attributes": {
+                "res": 37,
+                "luck": 3
+            }
+        },
+        {
+            "id": "head18",
+            "name": "Wolf Head",
+            "type": "gear",
+            "gearType": "Light Armour",
+            "slots": ["head"],
+            "icon": 35,
+            "skills": ["skill36","skill41"],
+            "attributes": {
+                "res": 42,
+                "luck": 1
+            }
+        },
+        {
+            "id": "access1",
+            "name": "El Corazon",
+            "type": "gear",
+            "gearType": "General Armour",
+            "slots": ["accessory"]
+        }
+    ],
+    "jobs": [
+        {
+            "id": "class1",
+            "name": "Nomad",
+            "gear": [
+                "Spear",
+                "Heavy Armour",
+                "General Armour",
+                "Shield"
+            ],
+            "promotion": ["class2", "class3", "class14"],
+            "skill": "Spear"
+        },
+        {
+            "id": "class2",
+            "name": "Partizan",
+            "gear": [
+                "Bow",
+                "Spear",
+                "Heavy Armour",
+                "Light Armour",
+                "General Armour",
+                "Shield",
+                "Wrist"
+            ],
+            "skill": "Play"
+        },
+        {
+            "id": "class3",
+            "name": "Witch",
+            "gear": [
+                "Spear",
+                "Tome",
+                "Heavy Armour",
+                "Magic Armour",
+                "General Armour",
+                "Shield",
+                "Wrist"
+            ],
+            "skill": "Spear"
+        },
+        {
+            "id": "class4",
+            "name": "Phoenix",
+            "gear": [
+                "Dagger",
+                "Tome",
+                "Light Armour",
+                "General Armour",
+                "Wrist"
+            ],
+            "skill": "Spear"
+        },
+        {
+            "id": "class5",
+            "name": "Conscript",
+            "gear": [
+                "Light Sword",
+                "Light Armour",
+                "General Armour",
+                "Shield"
+            ],
+            "promotion": ["class6", "class7", "class8"],
+            "skill": "Swordsmanship"
+        },
+        {
+            "id": "class6",
+            "name": "Skirmisher",
+            "gear": [
+                "Bow",
+                "Light Sword",
+                "Light Armour",
+                "General Armour",
+                "Shield"
+            ],
+            "skill": "Duel"
+        },
+        {
+            "id": "class7",
+            "name": "Swordmaster",
+            "gear": [
+                "Blade",
+                "Light Sword",
+                "Light Armour",
+                "General Armour",
+                "Shield"
+            ],
+            "skill": "En Garde"
+        },
+        {
+            "id": "class8",
+            "name": "Monk",
+            "gear": [
+                "Light Sword",
+                "Staff",
+                "Light Armour",
+                "Magic Armour",
+                "General Armour",
+                "Shield"
+            ],
+            "skill": "En Garde"
+        },
+        {
+            "id": "class9",
+            "name": "Pirate",
+            "gear": [
+                "Axe",
+                "Light Armour",
+                "General Armour",
+                "Wrist"
+            ],
+            "promotion": ["class10"],
+            "skill": "Pillage"
+        },
+        {
+            "id": "class10",
+            "name": "Viking",
+            "gear": [
+                "Axe",
+                "Blade",
+                "Light Armour",
+                "General Armour",
+                "Heavy Armour",
+                "Wrist",
+                "Shield"
+            ],
+            "skill": "Pillage"
+        },
+        {
+            "id": "class11",
+            "name": "Scribe",
+            "gear": [
+                "Tome",
+                "Magic Armour",
+                "General Armour",
+                "Wrist"
+            ],
+            "promotion": ["class12"],
+            "skill": "Book Learnin'"
+        },
+        {
+            "id": "class12",
+            "name": "Engineer",
+            "gear": [
+                "Club",
+                "Hammer",
+                "Light Armour",
+                "General Armour",
+                "Wrist"
+            ],
+            "skill": "Play"
+        },
+        {
+            "id": "class13",
+            "name": "Squire",
+            "gear": [
+                "Heavy Sword",
+                "Heavy Armour",
+                "General Armour",
+                "Shield"
+            ],
+            "promotion": ["class14"],
+            "skill": "Book Learnin'"
+        },
+        {
+            "id": "class14",
+            "name": "Knight",
+            "gear": [
+                "Heavy Sword",
+                "Spear",
+                "Heavy Armour",
+                "General Armour",
+                "Shield"
+            ],
+            "skill": "Book Learning"
+        },
+        {
+            "id": "class15",
+            "name": "Thief",
+            "gear": [
+                "Dagger",
+                "Light Armour",
+                "General Armour",
+                "Wrist"
+            ],
+            "promotion": ["class4", "class16"],
+            "skill": "Steal"
+        },
+        {
+            "id": "class16",
+            "name": "Assassin",
+            "gear": [
+                "Bow",
+                "Dagger",
+                "Light Armour",
+                "General Armour",
+                "Wrist"
+            ],
+            "skill": "Steal"
+        },
+        {
+            "id": "class17",
+            "name": "Pilgrim",
+            "gear": [
+                "Staff",
+                "Magic Armour",
+                "General Armour",
+                "Wrist"
+            ],
+            "promotion": ["class8", "class18"],
+            "skill": "Pray"
+        },
+        {
+            "id": "class18",
+            "name": "Sage",
+            "gear": [
+                "Staff",
+                "Tome",
+                "Magic Armour",
+                "General Armour",
+                "Wrist"
+            ],
+            "skill": "Pray"
+        },
+        {
+            "id": "class19",
+            "name": "Yeoman",
+            "gear": [
+                "Bow",
+                "Light Armour",
+                "General Armour",
+                "Wrist"
+            ],
+            "promotion": ["class2", "class6", "class16"],
+            "skill": "Pray"
+        },
+        {
+            "id": "class20",
+            "name": "Bard",
+            "gear": [
+                "Instrument",
+                "Magic Armour",
+                "General Armour",
+                "Wrist"
+            ],
+            "promotion": ["class2", "class6", "class16"],
+            "skill": "Play"
+        }
+    ],
+    "maps": [
+        {
+            "name": "map1",
+            "cellSize": 32,
+            "map": [
+                [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
+                [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
+                [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
+                [{ "setup": true }, { "setup": true }, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
+                [{ "setup": true }, { "setup": true }, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
+                [{ "setup": true }, { "setup": true }, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
+                [{ "setup": true }, { "setup": true }, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
+                [{ "setup": true }, { "setup": true }, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
+                [{ "setup": true }, { "setup": true }, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
+                [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
+                [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
+                [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "id": "swordmanship1",
+            "name": "Shii-Cho",
+            "type": "Swordsmanship",
+            "icon": 132,
+            "state": { "add": { "disable": 100 } } ,
+            "cost": { "tp": 3, "learn": 60 }
+        },
+        {
+            "id": "swordmanship2",
+            "name": "Ataru",
+            "type": "Swordsmanship",
+            "icon": 132,
+            "range": 3,
+            "jump": true,
+            "cost": { "tp": 3, "learn": 60 }
+        },
+        {
+            "id": "swordmanship3",
+            "name": "Vaapad",
+            "type": "Swordsmanship",
+            "icon": 132,
+            "times": 8,
+            "cost": { "tp": 3, "learn": 60 }
+        },
+        {
+            "id": "passive1",
+            "name": "Ability Up",
+            "passive": true,
+            "cost": { "slot": 3, "learn": 60 }
+        },
+        {
+            "id": "passive2",
+            "name": "Accuracy+",
+            "passive": true,
+            "cost": { "slot": 2, "learn": 30 }
+        },
+        {
+            "id": "passive3",
+            "name": "Antibody",
+            "passive": true,
+            "cost": { "slot": 4, "learn": 25 }
+        },
+        {
+            "id": "passive4",
+            "name": "Auto-Haste",
+            "passive": true,
+            "cost": { "slot": 9, "learn": 65 }
+        },
+        {
+            "id": "passive5",
+            "name": "Auto-Reflect",
+            "passive": true,
+            "cost": { "slot": 15, "learn": 75 }
+        },
+        {
+            "id": "passive6",
+            "name": "Auto-Regen",
+            "passive": true,
+            "cost": { "slot": 10, "learn": 30 }
+        },
+        {
+            "id": "passive7",
+            "name": "Body Temp",
+            "passive": true,
+            "cost": { "slot": 4, "learn": 25 }
+        },
+        {
+            "id": "passive8",
+            "name": "Bright Eyes",
+            "passive": true,
+            "cost": { "slot": 4, "learn": 25 }
+        },
+        {
+            "id": "passive9",
+            "name": "Chemist",
+            "passive": true,
+            "cost": { "slot": 4, "learn": 25 }
+        },
+        {
+            "id": "passive10",
+            "name": "Clear Headed",
+            "passive": true,
+            "cost": { "slot": 5, "learn": 25 }
+        },
+        {
+            "id": "passive11",
+            "name": "Counter",
+            "passive": true,
+            "alias": {"Swordsmanship": "Shien / Djem So"},
+            "cost": { "slot": 8, "learn": 70 }
+        },
+        {
+            "id": "passive12",
+            "name": "Dual Wield",
+            "passive": true,
+            "alias": {"Swordsmanship": "Niman"},
+            "cost": { "slot": 6, "learn": 30 }
+        },
+        {
+            "id": "passive13",
+            "name": "Half MP",
+            "passive": true,
+            "cost": { "slot": 11, "learn": 125 }
+        },
+        {
+            "id": "passive14",
+            "name": "High Tide",
+            "passive": true,
+            "cost": { "slot": 8, "learn": 30 }
+        },
+        {
+            "id": "passive15",
+            "name": "HP+10%",
+            "passive": true,
+            "cost": { "slot": 4, "learn": 20 }
+        },
+        {
+            "id": "passive16",
+            "name": "HP+20%",
+            "passive": true,
+            "cost": { "slot": 8, "learn": 60 }
+        },
+        {
+            "id": "passive17",
+            "name": "Initiative",
+            "passive": true,
+            "cost": { "slot": 5, "learn": 95 }
+        },
+        {
+            "id": "passive18",
+            "name": "Insomniac",
+            "passive": true,
+            "cost": { "slot": 5, "learn": 25 }
+        },
+        {
+            "id": "passive19",
+            "name": "Jelly",
+            "passive": true,
+            "cost": { "slot": 4, "learn": 30 }
+        },
+        {
+            "id": "passive20",
+            "name": "Level Up",
+            "passive": true,
+            "cost": { "slot": 7, "learn": 50 }
+        },
+        {
+            "id": "passive21",
+            "name": "Locomotion",
+            "passive": true,
+            "cost": { "slot": 4, "learn": 30 }
+        },
+        {
+            "id": "passive22",
+            "name": "Long Reach",
+            "passive": true,
+            "cost": { "slot": 16, "learn": 200 }
+        },
+        {
+            "id": "passive23",
+            "name": "Loudmouth",
+            "passive": true,
+            "cost": { "slot": 4, "learn": 30 }
+        },
+        {
+            "id": "passive24",
+            "name": "Mag Elem Null",
+            "passive": true,
+            "cost": { "slot": 13, "learn": 115 }
+        },
+        {
+            "id": "passive25",
+            "name": "Master Thief",
+            "passive": true,
+            "type": "Steal",
+            "cost": { "slot": 5, "learn": 50 }
+        },
+        {
+            "id": "passive26",
+            "name": "Millionaire",
+            "passive": true,
+            "type": "Commerce",
+            "cost": { "slot": 5, "learn": 100 }
+        },
+        {
+            "id": "passive27",
+            "name": "MP+10%",
+            "passive": true,
+            "cost": { "slot": 4, "learn": 35 }
+        },
+        {
+            "id": "passive28",
+            "name": "MP+20%",
+            "passive": true,
+            "cost": { "slot": 8, "learn": 45 }
+        },
+        {
+            "id": "passive29",
+            "name": "Sword Breaker",
+            "passive": true,
+            "alias": {"Swordsmanship": "Makashi"}
+        },
+        {
+            "id": "passive30",
+            "name": "Anti-Ballistic",
+            "passive": true,
+            "alias": {"Swordsmanship": "Soresu"}
+        }
+    ]
+}

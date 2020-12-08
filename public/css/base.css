@@ -1,0 +1,9 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    min-height: 100%;
+    font: 12pt Verdana, sans-serif;
+}
+div, ul, ol, li, form { margin: 0; padding: 0; list-style: none; }
+table { border-collapse: collapse; }
