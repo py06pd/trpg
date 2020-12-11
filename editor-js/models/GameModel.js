@@ -19,8 +19,42 @@ export default class GameModel {
         }
         if (data.items) {
             this.data.items = data.items.filter(x => x.type !== 'gear').map(x => new ItemModel(x));
-            this.data.armours = data.items.filter(x => x.type === 'gear' && !x.slots.includes('hand1')).map(x => new ItemModel(x));
-            this.data.weapons = data.items.filter(x => x.type === 'gear' && x.slots.includes('hand1')).map(x => new ItemModel(x));
+            this.data.armours = data.items.filter(x => x.type === 'gear' && !x.slots.includes('hand1')).map(x => {
+                if (x.skills) {
+                    let learning = [];
+                    x.skills.forEach(x => {
+                        let skill = data.skills.find(y => y.id === x);
+                        if (skill && skill.cost && skill.cost.learn) {
+                            learning.push({
+                                skill: x,
+                                attribute: 'ap',
+                                value: skill.cost.learn,
+                            });
+                        }
+                    });
+                    x.learning = learning;
+                }
+
+                return new ItemModel(x);
+            });
+            this.data.weapons = data.items.filter(x => x.type === 'gear' && x.slots.includes('hand1')).map(x => {
+                if (x.skills) {
+                    let learning = [];
+                    x.skills.forEach(x => {
+                        let skill = data.skills.find(y => y.id === x);
+                        if (skill && skill.cost && skill.cost.learn) {
+                            learning.push({
+                                skill: x,
+                                attribute: 'ap',
+                                value: skill.cost.learn,
+                            });
+                        }
+                    });
+                    x.learning = learning;
+                }
+
+                return new ItemModel(x);
+            });
         }
         if (data.jobs) {
             this.data.jobs = data.jobs.map(x => new JobModel(x));
@@ -62,7 +96,7 @@ export default class GameModel {
     }
 
     getArmourTypes () {
-        return ['General Armour', 'Heavy Armour', 'Light Armour', 'Magic Armour'];
+        return ['General Armour', 'Heavy Armour', 'Light Armour', 'Magic Armour', 'Shield', 'Wrist'];
     }
 
     getAttributes () {

@@ -17,3 +17,6 @@
 .map-editor > div, .map-editor ul { display: inline-block; vertical-align: top; }
 #equip_slots .cic-select { display: inline-block; }
 #equip_slots > li > span { display: inline-block; width: 80px; }
+.editor #attribute_modifier_tab .el-input-number { width: 120px; }
+.editor #learning_tab .el-input-number { width: 120px; }
+.editor .operator-cell .cic-select { width: 90px; }

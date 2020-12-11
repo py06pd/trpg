@@ -21,6 +21,7 @@
     "hp_label": "Hit Points",
     "tp_label": "Technique Points",
     "lp_label": "Limit",
+    "ap_label": "Learning Points",
     "str_label": "Strength",
     "def_label": "Defence",
     "int_label": "Intelligence",
@@ -31,6 +32,7 @@
     "luck_label": "Luck",
     "move_label": "Move",
     "range_label": "Range",
+
     "Jobs": "Jobs",
     "Add Job": "Add Job",
     "Skill Name": "Skill Name",
@@ -38,12 +40,21 @@
     "Gear Types": "Gear Types",
     "Weapon Types": "Weapon Types",
     "Armour Types": "Armour Types",
+
     "Weapons": "Weapons",
     "Add Weapon": "Add Weapon",
+    "Type": "Type",
+    "Weapon Type": "Weapon Type",
+    "Learn Skills": "Learn Skills",
+
     "Armours": "Armours",
     "Add Armour": "Add Armour",
+    "Armour Type": "Armour Type",
+    "Slots": "Slots",
+
     "Items": "Items",
     "Add Item": "Add Item",
+
     "Skills": "Skills",
     "Add Skill": "Add Skill"
 }

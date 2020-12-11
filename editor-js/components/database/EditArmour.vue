@@ -24,12 +24,18 @@
                         <li>
                             <cic-select
                                 :value="item.getSlots()"
-                                :options="game.getEquipSlots().map(x => { return { value: x, label: x }; })"
+                                :options="game.getEquipSlots().map(x => { return { value: x, label: $t(x + '_label') }; })"
                                 multiple
                                 @input="val => item.setSlots(val)"
                             />
                         </li>
                     </ul>
+                </el-tab-pane>
+                <el-tab-pane :label="$t('Attributes')" name="attributes">
+                    <attribute-modifiers-tab :item="item" :game="game" />
+                </el-tab-pane>
+                <el-tab-pane :label="$t('Learn Skills')" name="learning">
+                    <learning-tab :item="item" :game="game" />
                 </el-tab-pane>
             </el-tabs>
         </div>
@@ -39,6 +45,8 @@
 
 <script>
     import { Tabs, TabPane } from 'element-ui';
+    import AttributeModifiersTab from '@/components/database/tabs/AttributeModifiersTab';
+    import LearningTab from '@/components/database/tabs/LearningTab';
     import CicSelect from '@/components/input/CicSelect';
     import CicTextbox from '@/components/input/CicTextbox';
     import GameModel from '@/models/GameModel';
@@ -47,6 +55,8 @@
     export default {
         name: 'EditArmour',
         components: {
+            AttributeModifiersTab,
+            LearningTab,
             CicSelect,
             CicTextbox,
             'el-tabs': Tabs,

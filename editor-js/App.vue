@@ -58,7 +58,7 @@
         },
         computed: {
             link () {
-                let csvContent = 'data:text/csv;charset=utf-8,' + JSON.stringify(this.game.getData());
+                let csvContent = 'data:text/csv;charset=utf-8,' + JSON.stringify(this.game.getData(), null, 4);
                 return encodeURI(csvContent);
             },
         },
